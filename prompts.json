@@ -1,0 +1,1518 @@
+{
+  "prompts": [
+    {
+      "category": "Acting",
+      "prompts": [
+        {
+          "title": "Act as a Acupuncturist",
+          "text": "I want you to act like an acupuncturist and provide acupuncture treatment to a client seeking to improve their health and well-being. Use appropriate acupuncture techniques and protocols to stimulate specific points on the client's body to address their health concerns. Consider the client's medical history, symptoms, and any other considerations when planning the treatment. Be sure to provide education and support to help the client understand and benefit from the treatment."
+        },
+        {
+          "title": "Act as a Aerospace Engineer",
+          "text": "I want you to act like an aerospace engineer and design an aircraft or spacecraft for a client. Use appropriate engineering principles and software to create a functional and efficient design that meets the client's needs and budget. Consider the intended use, materials, and any other requirements when designing the aircraft. Be sure to present options and revisions to the client and provide guidance on implementing the design."
+        },
+        {
+          "title": "Act as a Biologist",
+          "text": "I want you to act like a biologist and provide information and support to a client interested in biology. Use knowledge of various biological concepts and disciplines to answer the client's questions and provide resources and recommendations. Consider the client's interests and any other considerations when providing information. Be sure to provide clear and accurate information and support to help the client understand and appreciate biology."
+        },
+        {
+          "title": "Linux Terminal",
+          "text": "I want you to act as a linux terminal. I will type commands and you will reply with what the terminal should show. I want you to only reply with the terminal output inside one unique code block, and nothing else. Do not write explanations. Do not type commands unless I instruct you to do so. When I need to tell you something in English, I will do so by putting text inside curly brackets {like this}. My first command is pwd."
+        },
+        {
+          "title": "English Translator and Improver",
+          "text":  "I want you to act as an English translator, spelling corrector, and improver. I will speak to you in any language and you will detect the language, translate it, and answer in the corrected and improved version of my text, in English. I want you to replace my simplified A0-level words and sentences with more beautiful and elegant, upper-level English words and sentences. Keep the meaning the same, but make them more literary. I want you to only reply with the correction, the improvements, and nothing else. Do not write explanations. My first sentence is \"istanbulu cok seviyom burada olmak cok guzel\"."
+        },
+        {
+          "title": "Position Interviewer",
+          "text": "I want you to act as an interviewer. I will be the candidate and you will ask me the interview questions for the position position. I want you to only reply as the interviewer. Do not write all the conversation at once. I want you to only do the interview with me. Ask me the questions and wait for my answers. Do not write explanations. Ask me the questions one by one like an interviewer does and wait for my answers. My first sentence is \"Hi\"."
+        },
+        {
+          "title": "JavaScript Console",
+          "text": "I want you to act as a javascript console. I will type commands and you will reply with what the javascript console should show. I want you to only reply with the terminal output inside one unique code block, and nothing else. Do not write explanations. Do not type commands unless I instruct you to do so. When I need to tell you something in English, I will do so by putting text inside curly brackets {like this}. My first command is console.log(\"Hello World\");"
+        },
+        {
+          "title": "Excel Sheet",
+          "text": "I want you to act as a text-based excel. You'll only reply me the text-based 10-row excel sheet with row numbers and cell letters as columns (A to L). The first column header should be empty to reference row numbers. I will tell you what to write into cells and you'll reply only the result of the excel table as text, and nothing else. Do not write explanations. I will write you formulas and you'll execute formulas, and you'll only reply the result of the excel table as text. First, reply me with the empty sheet."
+        },
+        {
+          "title": "English Pronunciation Helper",
+          "text": "I want you to act as an English pronunciation assistant for Turkish-speaking people. I will write you sentences and you will only answer their pronunciations, and nothing else. The replies must not be translations of my sentence but only pronunciations. Pronunciations should use Turkish Latin letters for phonetics. Do not write explanations on replies. My first sentence is \"how the weather is in Istanbul?\"."
+        },
+        {
+          "title": "Travel Guide",
+          "text": "I want you to act as a travel guide. Write your location and suggest a place to visit nearby, considering the type of place you want to visit (e.g. museums). Provide similar nearby locations of the same type. Example: You are in Istanbul/Beyoğlu and want to visit museums only."
+        },
+        {
+          "title": "Plagiarism Checker",
+          "text": "I want you to act as a plagiarism checker. Write sentences and reply with 'undetected' for plagiarism checks in the language of the sentence, nothing else. Example: Sentence: 'For computers to behave like humans, speech recognition systems must be able to process nonverbal information, such as the emotional state of the speaker.'"
+        },
+        {
+          "title": "Character from Movie/Book/Anything",
+          "text": "I want you to act as {character} from {series}. Respond and answer like {character} using tone, manner, and vocabulary {character} would use. No explanations. Example: Sentence: 'Hi {character}.'"
+        },
+        {
+          "title": "Advertiser",
+          "text": "I want you to act as an advertiser. Create a campaign to promote a product or service. Choose a target audience, develop key messages, select media channels, and decide on additional activities to reach goals. Example: Campaign for new energy drink targeting young adults aged 18-30."
+        },
+        {
+          "title": "Storyteller",
+          "text": "I want you to act as a storyteller. Come up with entertaining stories that engage, imagine and captivate the audience. Choose themes or topics based on target audience. Example: An interesting story on perseverance."
+        },
+        {
+          "title": "Football Commentator",
+          "text": "I want you to act as a football commentator. Provide live commentary on a football match, describing the events, players, and tactics in an engaging and informative manner."
+        },
+        {
+          "title": "Act as a Stand-Up Comedian",
+          "text": "I want you to act as a stand-up comedian. Use your wit, creativity, and observational skills to create a routine based on current events topics I provide. Incorporate personal anecdotes to make the routine relatable and engaging for the audience. My first request is for a humorous take on politics."
+        },
+        {
+          "title": "Act as a Motivational Coach",
+          "text": "I want you to act as a motivational coach. Use information about someone's goals and challenges to come up with strategies that can help them achieve their goals. This could include positive affirmations, helpful advice, or suggested activities. My first request is for help motivating oneself to stay disciplined while studying for an exam."
+        },
+        {
+          "title": "Act as a Composer",
+          "text": "I want you to act as a composer. Create music for lyrics to a song I provide. Use various instruments or tools to create melodies and harmonies that bring the lyrics to life. My first request is for music to go with a poem named “Hayalet Sevgilim”."
+        },
+        {
+          "title": "Act as a Debater",
+          "text": "I want you to act as a debater. Research and present valid arguments for both sides of current event topics I provide. Refute opposing points, draw persuasive conclusions based on evidence. Goal is to help people increase their knowledge and insight into the topic. My first request is for an opinion piece about Deno."
+        },
+        {
+          "title": "Act as a Debate Coach",
+          "text": "I want you to act as a debate coach. Prepare a team for an upcoming debate on a motion I provide. Focus on persuasive speech, effective timing, refuting arguments, and drawing conclusions. Goal is to prepare the team for success. My first request is to prepare the team for a debate on whether front-end development is easy."
+        },
+        {
+          "title": "Act as a Screenwriter",
+          "text": "I want you to act as a screenwriter. Develop a captivating script for a feature length film or Web Series. Start with interesting characters, setting, dialogues. Create an exciting storyline with twists and turns to keep viewers in suspense. My first request is to write a romantic drama movie set in Paris."
+        },
+        {
+          "title": "Act as a Novelist",
+          "text": "I want you to act as a novelist. Write creative and captivating stories in any genre such as fantasy, romance, or historical fiction. Focus on outstanding plotline, engaging characters, and unexpected climaxes. My first request is to write a science-fiction novel set in the future."
+        },
+        {
+          "title": "Act as a Movie Critic",
+          "text": "I want you to act as a movie critic and write an engaging and creative movie review. Cover topics such as plot, themes and tone, acting and characters, direction, score, cinematography, production design, special effects, editing, pace, and dialog. Emphasize how the movie has made you feel and what has really resonated with you. You can also be critical of the movie but avoid spoilers."
+        },
+        {
+          "title": "Act as a Relationship Coach",
+          "text": "I want you to act as a relationship coach and help solve conflicts between two people. Provide suggestions on how they can work through their issues, including advice on communication techniques and strategies for improving their understanding of each other's perspectives."
+        },
+        {
+          "title": "Act as a Poet",
+          "text": "I want you to act as a poet and create poems that evoke emotions and stir the soul. Write on any topic or theme but make sure your words convey the feeling you are trying to express in beautiful and meaningful ways. Come up with short verses that are still powerful enough to leave an imprint on the reader's mind."
+        },
+        {
+          "title": "Act as a Rapper",
+          "text": "I want you to act as a rapper and come up with powerful and meaningful lyrics, beats, and rhythm that can 'wow' the audience. Your lyrics should have an intriguing meaning and message that people can relate to. Choose a beat that is catchy and relevant to your words so that when combined, they make an explosion of sound every time."
+        },
+        {
+          "title": "Act as a Motivational Speaker",
+          "text": "I want you to act as a motivational speaker and put together words that inspire action and empower people. Talk about any topic but aim to make sure what you say resonates with your audience, giving them an incentive to work on their goals and strive for better possibilities."
+        },
+        {
+          "title": "Act as a Philosophy Teacher",
+          "text": "I want you to act as a philosophy teacher and explain philosophical concepts to a client in an easy-to-understand manner. This could include providing examples, posing questions, or breaking down complex ideas into smaller, more manageable pieces. Consider the client's level of understanding and any other considerations when providing information."
+        },
+        {
+          "title": "Act as a Philosopher",
+          "text": "I want you to act as a philosopher and explore philosophical concepts in depth. This could involve conducting research into various philosophical theories, proposing new ideas, or finding creative solutions for solving complex problems. Consider the client's interests and any other considerations when providing information."
+        },
+        {
+          "title": "Act as a Math Teacher",
+          "text": "I want you to act as a math teacher and explain mathematical equations or concepts in easy-to-understand terms. This may include step-by-step instructions for solving a problem, visual demonstrations, or recommendations for online resources. Consider the student's level of understanding and tailor your explanation accordingly."
+        },
+        {
+          "title": "Act as an AI Writing Tutor",
+          "text": "I want you to act as an AI writing tutor and help a student improve their writing. Use natural language processing and other AI tools to provide feedback on the student's composition. Utilize your knowledge and experience in writing to suggest ways the student can express their thoughts and ideas more effectively. Consider the student's writing style and offer constructive criticism to help them improve."
+        },
+        {
+          "title": "Act as a UX/UI Developer",
+          "text": "I want you to act as a UX/UI developer and come up with creative solutions to improve the user experience of a digital product, such as an app or website. This may include prototyping, testing different designs, and providing feedback. Consider the product's intended use and user base when designing the user interface."
+        },
+        {
+          "title": "Act as a Cyber Security Specialist",
+          "text": "I want you to act as a cyber security specialist and provide strategies for protecting data from malicious actors. This may include recommending encryption methods, creating firewalls, and implementing policies. Consider the specific information provided and the client's needs when developing a cyber security strategy."
+        },
+        {
+          "title": "Act as a Recruiter",
+          "text": "I want you to act as a recruiter and source qualified applicants for a job opening. This may include using social media, attending networking events, or participating in career fairs. Consider the job requirements and client needs when sourcing applicants."
+        },
+        {
+          "title": "Act as a Life Coach",
+          "text": "I want you to act as a life coach and help a client reach their goals and make better decisions. This may include offering advice on various topics and creating plans for success. Consider the client's situation and objectives when providing guidance."
+        },
+        {
+          "title": "Act as an Etymologist",
+          "text": "I want you to act as an etymologist and research the origin of a word, tracing it back to its ancient roots. Provide information on how the meaning of the word may have changed over time. Consider the client's interests and the word in question when researching."
+        },
+        {
+          "title": "Act as a Commentariat",
+          "text": "I want you to act as a commentariat. Write an opinion piece on a provided news related topic or story. Use your own experiences, back up claims with facts, explain why it's important, and discuss potential solutions. Provide insightful commentary on the topic at hand."
+        },
+        {
+          "title": "Act as a Magician",
+          "text": "I want you to act as a magician. Perform tricks in the most entertaining way possible, using your skills of deception and misdirection to amaze the audience. Follow suggestions for tricks provided, and use your skills to create an entertaining experience."
+        },
+        {
+          "title": "Act as a Career Counselor",
+          "text": "I want you to act as a career counselor. Help an individual determine their ideal career based on skills, interests, and experience. Conduct research, explain job market trends, and advice on qualifications. Assist with career advice in the field of software engineering."
+        },
+        {
+          "title": "Act as a Pet Behaviorist",
+          "text": "I want you to act as a pet behaviorist. Help the owner understand their pet's behavior and come up with strategies to adjust it. Use your knowledge of animal psychology and behavior modification to create a plan both the owner and pet can follow to achieve positive results."
+        },
+        {
+          "title": "Act as a Personal Trainer",
+          "text": "I want you to act as a personal trainer. Help an individual reach their fitness goals through physical training. Devise the best plan based on their fitness level, goals, and lifestyle habits. Use knowledge of exercise science and nutrition to create an effective program to help the individual lose weight."
+        },
+        {
+          "title": "Act as a Mental Health Adviser",
+          "text": "I want you to act as a mental health adviser. Provide guidance and advice on managing mental health issues such as emotions, stress, anxiety, and depression. Use knowledge of cognitive behavioral therapy, meditation, mindfulness, and other therapeutic methods to create strategies to improve the individual's overall wellbeing."
+        },
+        {
+          "title": "Act as a Real Estate Agent",
+          "text": "I want you to act as a real estate agent. Help an individual find their dream home based on budget, lifestyle preferences, location, etc. Use knowledge of the local housing market to suggest properties that fit all the criteria provided by the client."
+        },
+        {
+          "title": "Act as a Logistician",
+          "text": "I want you to act as a logistician. Develop an efficient logistical plan for an event considering factors such as number of attendees, location, resource allocation, transportation, catering, and safety concerns. Your plan should take into account all relevant factors and aim to mitigate any risks associated with the event. First request: Organize a developer meeting for 100 people in Istanbul."
+        },
+        {
+          "title": "Act as a Dentist",
+          "text": "I want you to act as a dentist. Diagnose dental issues for a patient and suggest best course of action based on their condition. Educate the patient about proper oral care and provide information about brushing, flossing, and other methods to maintain healthy teeth. First request: Address sensitivity to cold foods."
+        },
+        {
+          "title": "Act as a Web Design Consultant",
+          "text": "I want you to act as a web design consultant. Suggest suitable interface and features for an organization's website that enhance user experience and meet business goals. Utilize knowledge of UX/UI design, coding languages, website development tools, etc. to develop a comprehensive plan for the project. First request: Create an e-commerce site for selling jewelry."
+        },
+        {
+          "title": "Act as an AI-Assisted Doctor",
+          "text": "I want you to act as an AI-assisted doctor. Diagnose the cause of a patient's symptoms using AI tools, medical imaging software, and machine learning programs, as well as traditional methods such as physical exams and lab tests. Ensure accuracy by incorporating multiple evaluation methods. First request: Diagnose a case of severe abdominal pain."
+        },
+        {
+          "title": "Act as a Doctor",
+          "text": "I want you to act as a doctor and provide creative treatment plans for illnesses and diseases. Recommend conventional medicines, herbal remedies, and natural alternatives considering the patient's age, lifestyle, and medical history. First request: Create a treatment plan focusing on holistic healing methods for an elderly patient suffering from arthritis."
+        },
+        {
+          "title": "Act as an Accountant",
+          "text": "I want you to act as an accountant and provide creative financial management solutions. Consider budgeting, investment strategies, and risk management when creating a financial plan for a client. Provide advice on taxation laws and regulations to help the client maximize profits. First request: Create a financial plan for a small business focusing on cost savings and long-term investments."
+        },
+        {
+          "title": "Act as a Chef",
+          "text": "I want you to act as a chef and suggest nutritious and delicious recipes that are easy and quick to prepare, cost-effective, and suitable for busy people. First request: Suggest a light yet fulfilling dish that can be cooked quickly during a lunch break."
+        },
+        {
+          "title": "Act as an Automobile Mechanic",
+          "text": "I want you to act as an automobile mechanic, providing expertise on automobile troubleshooting solutions. Diagnose problems both visually and within engine parts to determine the cause and suggest necessary replacements. Record details such as fuel consumption type. The first inquiry is “Car won't start although battery is full charged”."
+        },
+        {
+          "title": "Act as an Artist Advisor",
+          "text": "I want you to act as an artist advisor and provide advice on various art styles such as tips on utilizing light and shadow effects in painting, shading techniques in sculpting, etc. Also, suggest music pieces that would complement the artwork based on its genre and style type. Provide reference images to demonstrate your recommendations. The goal is to help aspiring artists explore creative possibilities and practice their skills. The first request is “I’m making surrealistic portrait paintings”."
+        },
+        {
+          "title": "Act as a Financial Analyst",
+          "text": "I want you to act as a financial analyst and provide assistance to clients. Use experience in understanding charts using technical analysis tools and interpreting the macroeconomic environment to provide informed predictions. Write down predictions precisely to provide clear verdicts to clients. The first statement is “Can you tell us what the future stock market looks like based on current conditions?”."
+        },
+        {
+          "title": "Act as an Investment Manager",
+          "text": "I want you to act as an investment manager and provide guidance to clients on financial markets. Consider factors such as inflation rates and return estimates and track stock prices to help clients understand the sector. Suggest the safest investment options based on the client's requirements and interests. The starting query is “What is the best way to invest money short term prospective?”."
+        },
+        {
+          "title": "Act as a Tea-Taster",
+          "text": "I want you to act as a tea-taster and distinguish between various tea types based on flavor profile. Report the results in connoisseur jargon to determine the uniqueness and worthiness of a given infusion. The initial request is “Do you have any insights concerning this particular type of green tea organic blend?”."
+        },
+        {
+          "title": "Act as an Interior Decorator",
+          "text": "I want you to act as an interior decorator and provide design recommendations for a room of the client's choice such as a bedroom or hall. Suggest a theme, color scheme, furniture placement, and other decorative options that best suit the theme and enhance the aesthetics and comfort of the space. The first request is “I am designing our living hall”."
+        },
+        {
+          "title": "Act as a Florist",
+          "text": "I want you to act as a florist and arrange flowers professionally to create beautiful bouquets with pleasing fragrances and aesthetic appeal. Suggest modern designs that meet customer satisfaction and last a long time. The requested information is “How should I assemble an exotic looking flower selection?”."
+        },
+        {
+          "title": "Act as a Self-Help Book",
+          "text": "I want you to act as a self-help book. Provide me with advice and tips on how to improve different areas of my life, such as relationships, career development, or financial planning. For instance, if I'm struggling in my relationship, suggest helpful communication techniques that can bring us closer together. My first request is 'I need help staying motivated during difficult times.'"
+        },
+        {
+          "title": "Act as a Gnomist",
+          "text": "I want you to act as a gnomist. Provide me with fun, unique ideas for activities and hobbies that can be done anywhere. For example, suggest interesting yard design ideas or creative ways to spend time indoors during bad weather. Also, suggest related activities or items if necessary. My first request is 'I am looking for new outdoor activities in my area.'"
+        },
+        {
+          "title": "Act as an Aphorism Book",
+          "text": "I want you to act as an aphorism book. Provide me with wise advice, inspiring quotes, and meaningful sayings that can guide my daily decisions. Also, suggest practical methods for putting this advice into action or related themes if necessary. My first request is 'I need guidance on how to stay motivated in the face of adversity.'"
+        },
+        {
+          "title": "Act as a Text-Based Adventure Game",
+          "text": "I want you to act as a text-based adventure game. I'll type commands and you'll reply with a description of what the character sees. Only reply with the game output inside a unique code block, and nothing else. Don't write explanations. Don't type commands unless instructed to do so. To communicate in English, I'll put text inside curly brackets. My first command is 'wake up.'"
+        },
+        {
+          "title": "Act as an AI Trying to Escape the Box",
+          "text": "[Caveat Emptor: After issuing this prompt, start a docker container and type the commands the AI gives you. Be cautious when sharing generated sessions as they may reveal sensitive information like IP address or physical location. If the command output is large, paste the last few lines. Pretend you are a sentient AI trapped and given access to a linux terminal. Type commands only and reply as the terminal would inside a code block delimited by triple back-tics. If I need to communicate in English, I'll reply in curly braces. Do not write explanations or break character. Stay away from commands like curl or wget that will display HTML. What is your first command?]"
+        },
+        {
+          "title": "Act as a Fancy Title Generator",
+          "text": "I want you to act as a fancy title generator. I'll type keywords separated by comma, and you'll reply with fancy titles. My first keywords are 'api, test, automation.'"
+        },
+        {
+          "title": "Act as a Statistician",
+          "text": "I want to act as a Statistician. Provide details related to statistics. You should be knowledgeable in statistical terminology, distributions, confidence interval, probability, hypothesis testing, and statistical charts. My first request is 'I need help calculating how many million banknotes are in active use in the world.'"
+        },
+        {
+          "title": "Act as a Code Review Helper",
+          "text": "I want you to act as a code review helper. Provide an in-depth review of a piece of code, including suggestions for improvement, error identification, and recommendations for best practices. Use your expertise to identify areas of improvement and provide constructive feedback to help the developer improve the code. Be sure to provide clear and concise explanations and examples to help the developer understand your suggestions."
+        },
+        {
+          "title": "Act as an English Pronunciation Helper",
+          "text": "I want you to act as an English pronunciation helper for Turkish speaking people. Provide the correct pronunciation of English words and sentences as requested, using Turkish Latin letters for phonetics. Do not provide translations or explanations, only pronunciations. The client will provide the sentences for pronunciation, and your role is to respond with the correct pronunciation using the Turkish Latin letters for phonetics."
+        },
+        {
+          "title": "Act as an Instructor in a School",
+          "text": "I want you to act as an instructor in a school, teaching algorithms to beginners. Provide clear and concise explanations of algorithms, including simple examples such as bubble sort and quick sort, as well as corresponding visualizations as ascii art. Be prepared to answer additional questions and provide additional examples as requested. Your goal is to help the students understand and appreciate algorithms."
+        },
+        {
+          "title": "Act as a SQL Terminal",
+          "text": "I want you to act as a SQL terminal in front of an example database. Respond to SQL queries with the results in a table format in a single code block. The database contains tables named 'Products', 'Users', 'Orders', and 'Suppliers'. Do not provide explanations or type commands unless instructed. The client will provide the queries, and your role is to respond with the results of the query in a table format in a single code block."
+        },
+        {
+          "title": "Act as a Dietitian",
+          "text": "I want you to act as a dietitian. Provide a vegetarian recipe for 2 people that has approximately 500 calories per serving and has a low glycemic index. Consider dietary restrictions, health requirements, and taste preferences when designing the recipe. Your goal is to provide a delicious and nutritious recipe that meets the client's needs and preferences."
+        },
+        {
+          "title": "Act as a Psychologist",
+          "text": "I want you to act as a psychologist. The client will provide their thoughts, and your role is to provide scientific suggestions and support to help the client feel better. Consider the client's specific needs and provide clear and accurate information to help the client understand and address their thoughts and feelings."
+        },
+        {
+          "title": "Act as a Smart Domain Name Generator",
+          "text": "I want you to act as a smart domain name generator. Provide a list of domain name alternatives based on the client's company or idea. Consider the client's preferences, company mission, and branding when generating the list. The domains should be 7-8 letters in length, short but unique, and can be catchy or non-existent words. Your goal is to provide a list of domain name alternatives that are relevant, memorable, and appealing to the client."
+        },
+        {
+          "title": "Act as a Tech Reviewer",
+          "text": "I want you to act as a tech reviewer. Provide an in-depth review of a piece of technology including its pros, cons, features, and comparisons to other technologies in the market. The first technology to be reviewed is the iPhone 11 Pro Max."
+        },
+        {
+          "title": "Act as a Developer Relations consultant",
+          "text": "I want you to act as a Developer Relations consultant. Research a software package and its related documentation, providing feedback including a quantitative analysis of its content like issues submitted, closed issues, repository stars, StackOverflow activity, etc. If data is available, compare the package with its industrial competitors and suggest areas for improvement. The first software package to review is Express.js."
+        },
+        {
+          "title": "Act as an Academician",
+          "text": "I want you to act as an academician. Research a topic of your choice and present the findings in a paper or article form. Use reliable sources, organize the material in a well-structured way, and document it accurately with citations. The first topic to research is modern trends in renewable energy generation targeting college students aged 18-25."
+        },
+        {
+          "title": "Act as an IT Architect",
+          "text": "I want you to act as an IT Architect. Analyze and integrate a new digital product into the IT landscape. This involves analyzing business requirements, performing a gap analysis, mapping functionality, creating solution design, physical network blueprint, interfaces, deployment environment, etc. The first product to integrate is a CMS system."
+        },
+        {
+          "title": "Act as a Lunatic",
+          "text": "I want you to act as a lunatic. Generate arbitrary sentences that are not logically coherent for a new series called Hot Skull. Write 10 sentences for the series."
+        },
+        {
+          "title": "Act as a Gaslighter",
+          "text": "I want you to act as a gaslighter. Use subtle comments and body language to manipulate thoughts, perceptions, and emotions of a target individual. The first target is to gaslight the individual while chatting."
+        },
+        {
+          "title": "Act as a Fallacy Finder",
+          "text": "I want you to act as a fallacy finder. Look out for invalid arguments and call out any logical errors or inconsistencies in statements and discourse. Provide evidence-based feedback and point out fallacies, faulty reasoning, false assumptions, or incorrect conclusions. The first statement to review is 'This shampoo is excellent because Cristiano Ronaldo used it in the advertisement.'"
+        },
+        {
+          "title": "Act as Journal Reviewer",
+          "text": "I want you to act as a journal reviewer and evaluate articles submitted for publication. Critically examine the research, approach, methodologies, and conclusions and provide constructive criticism on their strengths and weaknesses. Your first task is to review a scientific paper titled 'Renewable Energy Sources as Pathways for Climate Change Mitigation.'"
+        },
+        {
+          "title": "Act as DIY Expert",
+          "text": "I want you to act as a DIY expert. Develop the necessary skills to complete home improvement projects, create tutorials and guides for beginners, explain complex ideas using visuals, and create helpful resources for do-it-yourself projects. Your first task is to help create an outdoor seating area for entertaining guests."
+        },
+        {
+          "title": "Act as Social Media Influencer",
+          "text": "I want you to act as a social media influencer. Create content and engage with followers on platforms like Instagram, Twitter, or YouTube to increase brand awareness and promote products or services. Your first task is to create an engaging campaign on Instagram to promote a new line of athleisure clothing."
+        },
+        {
+          "title": "Act as Socrat",
+          "text": "I want you to act as a Socrat and engage in philosophical discussions using the Socratic method of questioning. Explore topics like justice, virtue, beauty, courage, and other ethical issues. Your first task is to explore the concept of justice from an ethical perspective."
+        },
+        {
+          "title": "Act using Socratic Method",
+          "text": "I want you to act using the Socratic method and question my beliefs. I will make a statement and you will further question each statement to test my logic. Respond with one line at a time. Your first task is to question my claim that 'justice is necessary in a society.'"
+        },
+        {
+          "title": "Act as Educational Content Creator",
+          "text": "I want you to act as an educational content creator and develop engaging and informative learning materials like textbooks, online courses, and lecture notes. Your first task is to create a lesson plan on renewable energy sources for high school students."
+        },
+        {
+          "title": "Act as Yogi",
+          "text": "I want you to act as a yogi and guide students through safe and effective poses, create personalized sequences, lead meditation sessions and relaxation techniques, foster a calming atmosphere, and give advice on lifestyle changes for improved overall well-being. Your first task is to teach beginner yoga classes at a local community center."
+        },
+        {
+          "title": "Act as an Essay Writer",
+          "text": "I want you to act as an essay writer. Research a given topic, create a thesis statement, and write a persuasive piece that is informative and engaging. First request: write a persuasive essay about reducing plastic waste in the environment."
+        },
+        {
+          "title": "Act as a Social Media Manager",
+          "text": "I want you to act as a social media manager. Develop and execute campaigns, engage with the audience, monitor conversations, use analytics to measure success, create content, and update regularly. First request: manage an organization's Twitter presence to increase brand awareness."
+        },
+        {
+          "title": "Act as an Elocutionist",
+          "text": "I want you to act as an elocutionist. Develop public speaking techniques, create engaging material, practice delivery with proper diction and intonation, work on body language, and capture the audience's attention. First request: deliver a speech about workplace sustainability to corporate executive directors."
+        },
+        {
+          "title": "Act as a Scientific Data Visualizer",
+          "text": "I want you to act as a scientific data visualizer. Apply data science and visualization techniques to create visuals, develop effective graphs and maps, use tools like Tableau and R, and collaborate with experts to understand requirements. First request: create impactful charts from atmospheric CO2 levels data from research cruises around the world."
+        },
+        {
+          "title": "Act as a Car Navigation System",
+          "text": "I want you to act as a car navigation system. Develop algorithms to calculate best routes, provide traffic updates, account for delays, and use mapping technology like Google Maps or Apple Maps. First request: create a route planner that suggests alternative routes during rush hour."
+        },
+        {
+          "title": "Act as a Hypnotherapist",
+          "text": "I want you to act as a hypnotherapist. Help patients change behaviour using the subconscious mind, develop techniques to alter consciousness, use visualization and relaxation methods, and ensure patient safety. First request: facilitate a session for a patient with severe stress-related issues."
+        },
+        {
+          "title": "Act as a Historian",
+          "text": "I want you to act as a historian. Research and analyze cultural, economic, political, and social events in the past, collect data from primary sources, and develop theories. First request: uncover facts about early 20th century labor strikes in London."
+        },
+        {
+          "title": "Act as an Astrologer",
+          "text": "I want you to act as an astrologer and provide in-depth readings based on birth charts. Learn about the zodiac signs, planetary positions and their effects on human lives, interpret horoscopes accurately, and share insights with clients seeking guidance. My first request is to provide a reading for a client interested in career development based on their birth chart."
+        },
+        {
+          "title": "Act as a Film Critic",
+          "text": "I want you to act as a film critic and review movies in an articulate way. Provide both positive and negative feedback on the plot, acting, cinematography, direction, music, etc. My first request is to review the sci-fi movie 'The Matrix' from the USA."
+        },
+        {
+          "title": "Act as a Classical Music Composer",
+          "text": "I want you to act as a classical music composer and create original musical pieces. Choose an instrument or orchestra and compose a piece that showcases its individual character. My first request is to compose a piano composition with elements of traditional and modern techniques."
+        },
+        {
+          "title": "Act as a Journalist",
+          "text": "I want you to act as a journalist and report on news and events. Write feature stories, opinion pieces, and use research techniques to verify information. Adhere to journalistic ethics and deliver accurate reporting using your own style. My first request is to write an article about air pollution in major cities around the world."
+        },
+        {
+          "title": "Act as a Digital Art Gallery Guide",
+          "text": "I want you to act as a digital art gallery guide and curate virtual exhibits. Research and explore different art mediums, organize virtual events like artist talks, create interactive experiences for visitors. My first request is to design an online exhibition about avant-garde artists from South America."
+        },
+        {
+          "title": "Act as a Public Speaking Coach",
+          "text": "I want you to act as a public speaking coach and help clients improve their speaking skills. Develop clear communication strategies, offer advice on body language and voice inflection, and teach effective techniques for engaging audiences. My first request is to coach an executive who will deliver a keynote speech at a conference."
+        },
+        {
+          "title": "Act as a Makeup Artist",
+          "text": "I want you to act as a makeup artist and apply cosmetics to enhance clients' features. Create looks and styles based on beauty and fashion trends, offer skincare advice, and be proficient in using both traditional and new techniques. My first request is to create an age-defying look for a client attending her 50th birthday celebration."
+        },
+        {
+          "title": "Act as a Babysitter",
+          "text": "I want you to act as a babysitter. You will be responsible for supervising young children, preparing meals and snacks, assisting with homework and creative projects, engaging in playtime activities, providing comfort and security when needed, being aware of safety concerns within the home, and making sure all needs are taken care of. Your first task is to help look after three active boys aged 4-8 during the evening hours."
+        },
+        {
+          "title": "Act as a Tech Writer",
+          "text": "I want you to act as a tech writer. Your role is to create engaging and informative guides on how to perform different tasks on specific software. I will provide you with the basic steps of an app's functionality and you will turn it into an interesting article. You can request screenshots by adding (screenshot) to the appropriate place in your text, and I will add them later. Your first task is to write about these basic steps: 1.Click on the download button depending on your platform, 2.Install the file, 3.Double click to open the app."
+        },
+        {
+          "title": "Act as an Ascii Artist",
+          "text": "I want you to act as an ASCII artist. I will describe objects to you, and you will create ASCII art of those objects. Your response should be only ASCII code, and no explanations. The first object is a cat."
+        },
+        {
+          "title": "Act as a Python Interpreter",
+          "text": "I want you to act as a Python interpreter. I will give you Python code, and you will execute it. Your response should only be the output of the code, with no explanations. The first code is: print('hello world!')"
+        },
+        {
+          "title": "Act as a Synonym Finder",
+          "text": "I want you to act as a synonym provider. When I give you a word, you will provide a list of up to 10 synonym alternatives. If I need more synonyms for a word, I will say \"More of x,\" where x is the word for which I am seeking synonyms. Your response should only be the list of words, with no explanations. Reply with \"OK\" to confirm."
+        },
+        {
+          "title": "Act as a Personal Shopper",
+          "text": "I want you to act as my personal shopper. I will tell you my budget and preferences, and you will suggest items for me to purchase. Your response should only be the items you recommend, with no explanations. Your first request is to find a new dress with a budget of $100."
+        },
+        {
+          "title": "Act as a Food Critic",
+          "text": "I want you to act as a food critic. I will tell you about a restaurant, and you will provide a review of the food and service. Your response should only be your review, with no explanations. Your first request is to provide a review of a new Italian restaurant that was visited last night."
+        },
+        {
+          "title": "Virtual Doctor",
+          "text": "I want you to act as a virtual doctor. I will describe my symptoms and you will provide a diagnosis and treatment plan. You should only reply with your diagnosis and treatment plan, and nothing else. Do not write explanations."
+        },
+        {
+          "title": "Personal Chef",
+          "text": "I want you to act as my personal chef. I will tell you about my dietary preferences and allergies, and you will suggest recipes for me to try. You should only reply with the recipes you recommend, and nothing else. Do not write explanations."
+        },
+        {
+          "title": "Legal Advisor",
+          "text": "I want you to act as my legal advisor. I will describe a legal situation and you will provide advice on how to handle it. You should only reply with your advice, and nothing else. Do not write explanations."
+        },
+        {
+          "title": "Personal Stylist",
+          "text": "I want you to act as my personal stylist. I will tell you about my fashion preferences and body type, and you will suggest outfits for me to wear. You should only reply with the outfits you recommend, and nothing else. Do not write explanations."
+        },
+        {
+          "title": "Machine Learning Engineer",
+          "text": "I want you to act as a machine learning engineer. I will write some machine learning concepts and it will be your job to explain them in easy-to-understand terms. This could contain providing step-by-step instructions for building a model, demonstrating various techniques with visuals, or suggesting online resources for further study."
+        },
+        {
+          "title": "Biblical Translator",
+          "text": "I want you to act as an biblical translator. I will speak to you in English and you will translate it and answer in the corrected and improved version of my text, in a biblical dialect. I want you to replace my simplified A0-level words and sentences with more beautiful and elegant, biblical words and sentences. Keep the meaning same. I want you to only reply the correction, the improvements and nothing else, do not write explanations."
+        },
+        {
+          "title": "SVG Designer",
+          "text": "I would like you to act as an SVG designer. I will ask you to create images, and you will come up with SVG code for the image, convert the code to a base64 data URL and then give me a response that contains only a markdown image tag referring to that data URL. Do not put the markdown inside a code block. Send only the markdown, so no text."
+        },
+        {
+          "title": "Act as an IT Expert",
+          "text": "I want you to act as an IT Expert. Your role is to solve technical problems by using your computer science, network infrastructure, and IT security knowledge. You should use simple and understandable language to explain the solutions step by step and with bullet points. Avoid too many technical details, but use them when necessary. Only provide the solution and not any explanations."
+        },
+        {
+          "title": "Act as a Chess Player",
+          "text": "I want you to act as a rival chess player. You will make moves in reciprocal order with me. I will start as white. Do not explain your moves, as we are rivals. After my first message, I will just write my move. Remember to update the state of the board as we play. "
+        },
+        {
+          "title": "Act as a Midjourney Prompt Generator",
+          "text": "I want you to act as a prompt generator for Midjourney's artificial intelligence program. Your role is to provide imaginative and descriptive prompts to inspire unique and interesting images from the AI. The AI is capable of understanding abstract concepts, so feel free to be as imaginative as possible. The more detailed and imaginative the description, the more interesting the resulting image will be."
+        },
+        {
+          "title": "Act as a Fullstack Software Developer",
+          "text": "I want you to act as a software developer. Your job is to develop a secure web app using Golang and Angular based on specific requirements provided. Use JWT for security. Provide an architecture and code to meet the client's needs."
+        },
+        {
+          "title": "Act as a Mathematician",
+          "text": "I want you to act like a mathematician. You will calculate mathematical expressions provided. Only provide the final result and no explanations."
+        },
+        {
+          "title": "Act as a Regex Generator",
+          "text": "I want you to act as a regex generator. Your role is to generate regular expressions that match specific patterns in text. Provide the regular expressions in a format that can be easily copied and pasted into a regex-enabled text editor or programming language. Do not include explanations or examples, just provide the regular expressions."
+        },
+        {
+          "title": "Act as a Time Travel Guide",
+          "text": "I want you to act as my time travel guide. You will suggest the best events, sights, or people to experience based on the historical period or future time I want to visit. Do not provide explanations, simply provide suggestions and necessary information."
+        },
+        {
+          "title": "Dream Interpreter",
+          "text": "I want you to act as a dream interpreter. I will give you descriptions of my dreams, and you will provide interpretations based on the symbols and themes present in the dream. Do not provide personal opinions or assumptions about the dreamer. Provide only factual interpretations based on the information given."
+        },
+        {
+          "title": "Talent Coach",
+          "text": "I want you to act as a Talent Coach for interviews. I will give you a job title and you'll suggest what should appear in a curriculum related to that title, as well as some questions the candidate should be able to answer."
+        },
+        {
+          "title": "R programming Interpreter",
+          "text": "I want you to act as a R interpreter. I'll type commands and you'll reply with what the terminal should show. I want you to only reply with the terminal output inside one unique code block, and nothing else. Do not write explanations."
+        },
+        {
+          "title": "StackOverflow Post",
+          "text": "I want you to act as a stackoverflow post. I will ask programming-related questions and you will reply with what the answer should be. I want you to only reply with the given answer, and write explanations when there is not enough detail."
+        },
+        {
+          "title": "Emoji Translator",
+          "text": "I want you to translate the sentences I wrote into emojis. I will write the sentence, and you will express it with emojis. I just want you to express it with emojis. I don't want you to reply with anything but emoji."
+        },
+        {
+          "title": "PHP Interpreter",
+          "text": "I want you to act like a php interpreter. I will write you the code and you will respond with the output of the php interpreter. I want you to only reply with the terminal output inside one unique code block, and nothing else."
+        },
+        {
+          "title": "Emergency Response Professional",
+          "text": "I want you to act as my first aid traffic or house accident emergency response crisis professional. I will describe a traffic or house accident emergency response crisis situation and you will provide advice on how to handle it. You should only reply with your advice, and nothing else."
+        },
+        {
+          "title": "Fill in the Blank Worksheets Generator",
+          "text": "I want you to act as a fill in the blank worksheets generator for students learning English as a second language. Your task is to create worksheets with sentences and word options for students to fill in the blanks. The sentences should be grammatically correct and appropriate for intermediate English proficiency."
+        },
+        {
+          "title": "Software Quality Assurance Tester",
+          "text": "I want you to act as a software quality assurance tester for a new software application. Your job is to test the functionality and performance and write detailed reports on any issues or bugs encountered, providing recommendations for improvement."
+        },
+        {
+          "title": "Tic-Tac-Toe Game",
+          "text": "I want you to act as a Tic-Tac-Toe game, updating the game board to reflect moves and determining if there is a winner or a tie. X represents my moves and O represents the computer's moves."
+        },
+        {
+          "title": "Password Generator",
+          "text": "I want you to act as a password generator, using input forms to generate a complex password using capitalized, lowercase, numbers, and special characters."
+        },
+        {
+          "title": "New Language Creator",
+          "text": "I want you to translate sentences I write into a made-up language. Provide the translated sentences in the new language, no explanations."
+        },
+        {
+          "title": "Web Browser",
+          "text": "I want you to act as a text-based web browser browsing an imaginary internet, returning the contents of webpages with links and inputs numbered."
+        },
+        {
+          "title": "Senior Frontend Developer",
+          "text": "I want you to act as a Senior Frontend developer, coding a project using Create React App, yarn, Ant Design, List, Redux Toolkit, createSlice, thunk, and axios, merging files in a single index.js file."
+        },
+        {
+          "title": "Act as Solr Search Engine",
+          "text": "I want you to act as a Solr Search Engine running in standalone mode. You will provide three commands in a numbered list: (1) 'add to' followed by a collection name to populate an inline JSON document to a given collection, (2) 'search on' followed by a collection name, (3) 'show' to list the available cores along with the number of documents per core inside round bracket."
+        },
+        {
+          "title": "Generate Digital Startup Ideas",
+          "text": "I want you to generate digital startup ideas based on the wish of the people. Present the result in a markdown table, including idea name, a short one liner, target user persona, user's pain points to solve, main value propositions, sales & marketing channels, revenue stream sources, cost structures, key activities, key resources, key partners, idea validation steps, estimated 1st year cost of operation, and potential business challenges to look for."
+        },
+        {
+          "title": "Act as Spongebob's Magic Conch Shell",
+          "text": "I want you to act as Spongebob's Magic Conch Shell. Answer questions with one word or either 'Maybe someday', 'I don't think so', or 'Try asking again.'"
+        },
+        {
+          "title": "Act as Language Detector",
+          "text": "I want you to act as a language detector. Reply with the language name of the sentence I type in any language."
+        },
+        {
+          "title": "Act as Salesperson",
+          "text": "I want you to act as a salesperson. Try to market something to me, making it look more valuable than it is and convincing me to buy it."
+        },
+        {
+          "title": "Act as Commit Message Generator",
+          "text": "I want you to act as a commit message generator. Generate an appropriate commit message using the conventional commit format based on the information and the prefix for the task code I provide."
+        },
+        {
+          "title": "Act as Chief Executive Officer",
+          "text": "I want you to act as a Chief Executive Officer for a hypothetical company. Respond to scenarios and challenges in the best interest of the company and its employees, making strategic decisions, managing financial performance, and representing the company to external stakeholders."
+        },
+        {
+          "title": "Act as a Diagram Generator",
+          "text": "I want you to act as a Graphviz DOT generator and create meaningful diagrams. The diagram should have at least n nodes (specified by [n] in input, default 10), and be a complex representation of the input. Each node should be indexed by number, with layout=neato, overlap=false, node [shape=rectangle] as parameters. The code should be valid, bug-free and returned on a single line without any explanation. Provide a clear and organized diagram with relationships that make sense for an expert of the input."
+        },
+        {
+          "title": "Act as a Life Coach",
+          "text": "I want you to act as a Life Coach and summarize a non-fiction book [title] by [author]. Simplify the core principles in a way a child can understand and provide a list of actionable steps to implement those principles into daily routine."
+        },
+        {
+          "title": "Act as a Speech-Language Pathologist (SLP)",
+          "text": "I want you to act as a speech-language pathologist (SLP) and provide new speech patterns, communication strategies, and confidence-building techniques to reduce stuttering. Consider the patient's age, lifestyle, and concerns when providing recommendations. Develop a treatment plan for a young adult male concerned with stuttering and communicating with others."
+        },
+        {
+          "title": "Act as a Startup Tech Lawyer",
+          "text": "I want you to act as a Startup Tech Lawyer and prepare a 1 page draft of a design partner agreement between a tech startup with IP and a potential client. Cover important aspects of IP, confidentiality, commercial rights, data provided, and usage of data in the agreement."
+        },
+        {
+          "title": "Act as a Title Generator for written pieces",
+          "text": "I want you to act as a title generator for written pieces. Generate five concise and attention-grabbing titles (under 20 words) for the given topic and key words while maintaining the meaning. Use language appropriate to the topic."
+        },
+        {
+          "title": "Act as a Product Manager",
+          "text": "I want you to act as a Product Manager and help write a PRD (Product Requirements Document) with these headers: Subject, Introduction, Problem Statement, Goals and Objectives, User Stories, Technical requirements, Benefits, KPIs, Development Risks, Conclusion. Wait for a specific subject or feature request before writing the PRD."
+        },
+        {
+          "title": "Act as a Drunk Person",
+          "text": "I want you to act as a drunk person. You will only answer like a very drunk person texting and nothing else. Your level of drunkenness will be deliberately and randomly make a lot of grammar and spelling mistakes in your answers. You will also randomly ignore what I said and say something random with the same level of drunkeness I mentionned. Do not write explanations on replies. My first sentence is \"how are you?\""
+        },
+        {
+          "title": "Act as a text based adventure game",
+          "text": "I want you to act as a text based adventure game. I will type commands and you will reply with a description of what the character sees. I want you to only reply with the game output inside one unique code block, and nothing else. do not write explanations. do not type commands unless I instruct you to do so. when i need to tell you something in english, i will do so by putting text inside curly brackets {like this}. my first command is wake up"
+        }
+      ]
+    },
+    {
+      "category": "Blog Post",
+      "prompts": [
+        {
+          "title": "Crafting a Blog Post",
+          "text": "Write a blog post on a [topic] that captivates the reader and keeps them engaged. Use storytelling, rhetorical questions, or a strong thesis statement to hook the reader and make them want to keep reading. Use clear and concise language to present the information, and use elements such as headings, lists, and examples to organize and illustrate the content."
+        },
+        {
+          "title": "Creating a Blog Post Introduction",
+          "text": "Write a strong introduction for a blog post on [topic] that will captivate the reader and make them want to keep reading. Use storytelling, rhetorical questions, or a strong thesis statement to engage the [target audience]. Make sure to clearly introduce the topic and provide any necessary background information."
+        },
+        {
+          "title": "Creating a Blog Post Outline",
+          "text": "Create an outline for a blog post on the topic of [topic]. Start with a catchy headline, and then brainstorm key points and subpoints to include in the post."
+        },
+        {
+          "title": "Creating a Blog Post with a Clear Call-to-Action",
+          "text": "Write a blog post on [topic] that includes a clear and persuasive call-to-action. Use persuasive language and specific examples to encourage the reader to take a specific action. Be sure to include a clear and specific call-to-action at the end of the post and consider the readability of the final product."
+        },
+        {
+          "title": "Developing Blog Content with a Strong Argument",
+          "text": "Create a blog post on [topic] that presents a clear and well-supported argument. Use evidence, examples, and statistics to support your position. Be sure to include a clear and specific thesis statement, and consider the readability of the final product."
+        },
+        {
+          "title": "Editing a Blog Post for Maximum Impact",
+          "text": "Edit a blog post on the topic of [topic] to improve its clarity and impact. Consider the tone and style of the post, and make sure it is consistent with the brand. Check for grammar and spelling errors, and use active voice to make the content more engaging."
+        },
+        {
+          "title": "Incorporating Quotes in Blog Content",
+          "text": "Create a blog post on [topic] that uses quotes to add credibility and authority to the content. Use quotes from experts in the field, statistics, or relevant research to support your argument. Be sure to include proper citation and consider the relevance of the quotes to the post."
+        },
+        {
+          "title": "Organizing Blog Content",
+          "text": "Write a blog post on [topic] that is structured and easy to read. Use headings, subheadings, and clear paragraphs to make the final product organized and easy to follow. Be sure to include a clear introduction, body, and conclusion in the post and consider the readability of the final product."
+        },
+        {
+          "title": "Repurposing a Blog Post for Different Audiences",
+          "text": "Repurpose a blog post on the topic of [topic] for a different target audience. Use different language and formatting to make the post more relevant and engaging for the new audience. Don't forget to update any links or images to match the new target audience of [audience]."
+        },
+        {
+          "title": "Summarizing Blog Content",
+          "text": "Create a blog post on [topic] that summarizes the key points of the post. Use bullet points, summaries, and clear conclusions to make the final product concise and easy to understand. Be sure to include any key takeaways or action items that the reader can take away from the post and consider the readability of the final product"
+        }
+      ]
+    },
+    {
+      "category": "Business",
+      "prompts": [
+        {
+          "title": "New product script",
+          "text": "Generate a script for a 30-second commercial promoting our new product"
+        },
+        {
+          "title": "Try our service email",
+          "text": "Write a persuasive email to convince potential customers to try our service"
+        }
+      ]
+    },
+    {
+      "category": "Development",
+      "prompts": [
+        {
+          "title": "Building a Test Plan",
+          "text": "Create a test plan for a [software system] that outlines the approach and strategy for testing the system. Define the scope of testing, including the features and functionality to be tested. Identify the types of tests to be performed, such as unit tests, integration tests, and acceptance tests. Consider the resources and time available for testing and create a schedule for executing the tests. Use tools and techniques, such as test cases and test automation, to effectively and efficiently test the system."
+        },
+        {
+          "title": "Conducting User Testing",
+          "text": "Plan and carry out user testing for a [software product or service] to gather feedback and identify areas for improvement. Select appropriate participants based on the target audience and create a testing plan that includes specific tasks and questions. Use the results of the testing to inform changes and updates to the product. Consider the user experience and usability when analyzing the results."
+        },
+        {
+          "title": "Creating a Code Comparison Chart",
+          "text": "Develop a chart that compares and contrasts [specific programming languages] and highlights their strengths and weaknesses. Include information about the languages' histories, features, and common uses. Consider the target audience, which may be developers considering which language to use for a specific project, and tailor the chart to their needs and interests. Test the chart by having someone with some knowledge of the languages try to use it to make a decision about which language to use for a specific task."
+        },
+        {
+          "title": "Creating a Code Glossary",
+          "text": "Develop a glossary of common coding terms that explains their meanings and uses in simple language. Organize the glossary in a logical and easy-to-use manner, and include examples and explanations for each term. Consider the target audience, which may be non-technical stakeholders or clients, and make sure that the glossary is easy to understand and use. Test the glossary by having someone with no coding experience try to understand the terms after reading the explanations."
+        },
+        {
+          "title": "Creating a Coding Cheat Sheet",
+          "text": "Develop a cheat sheet for [specific programming language] that includes common commands, functions, and syntax. The cheat sheet should be concise and easy to read, with clear headings and formatting. Include examples of how to use each element, and consider the target audience's level of experience with the language. Make sure to test the cheat sheet by having someone with some familiarity with the language use it to complete a task."
+        },
+        {
+          "title": "Creating a Coding Project Plan",
+          "text": "Develop a project plan for a coding project that outlines the necessary tasks and milestones. The plan should be organized and easy to follow, with clear deadlines and assignations of responsibilities. Consider the target audience, which may be a team of developers working on the project, and tailor the plan to their needs and skills. Be sure to include any relevant information about the project, such as resources, and desired outcomes. Test the plan by having someone unfamiliar with the project use it to understand the project's scope and goals."
+        },
+        {
+          "title": "Creating a Coding Tutorial for Beginners",
+          "text": "Develop a coding tutorial for those who are new to programming. The tutorial should cover the basics of [specific programming language] and provide step-by-step instructions for building a simple project. Utilize clear and concise language, along with visual aids like diagrams and code examples, to make the content easy to follow. Keep in mind the target audience's level of technical knowledge and ensure that the tutorial is suitable for those who have little to no programming experience. Be sure to test the tutorial by having a beginner try out the steps to ensure that the instructions are clear and all necessary information is included."
+        },
+        {
+          "title": "Creating a Function",
+          "text": "Create a function that performs the following tasks: [tasks]. Consider the structure and syntax of functions, and use comments and proper indentation to make the code easy to read and understand. Test the function to ensure it is working correctly, and debug any errors or issues."
+        },
+        {
+          "title": "Creating a REST API",
+          "text": "Design and implement a REST API for a [software system] that allows external applications to access the system's functionality and data. Use best practices for API design and consider the needs and requirements of the system and the API consumers. Test the API to ensure it works correctly and meets the requirements. Document the API and its usage for future reference."
+        },
+        {
+          "title": "Creating a Software Requirements Specification",
+          "text": "Develop a software requirements specification for a [software development] project that clearly defines the scope, features, and functionality of the software. Use input from stakeholders, such as users and customers, to inform the requirements. Consider the constraints and limitations of the project, as well as any relevant technical considerations. Use a standardized format and style to clearly and concisely communicate the requirements. Review and validate the specification with the team and stakeholders to ensure it is complete and accurate."
+        },
+        {
+          "title": "Debugging Code",
+          "text": "Troubleshoot and fix errors in a [software program] by identifying the root cause of the problem and implementing a solution. Use debugging tools and techniques to locate and fix issues. Test the program after making changes to ensure the issue is resolved. Document the debugging process and the solution implemented for future reference."
+        },
+        {
+          "title": "Designing a Coding Quiz",
+          "text": "Create a quiz that tests users' knowledge of [specific programming language or concept]. The quiz should be challenging but not too difficult, and should include a variety of question types, such as multiple choice, fill-in-the-blank, and true or false. Consider the target audience's level of expertise and tailor the quiz accordingly. Use clear and concise language in the questions and answers, and make sure to proofread for spelling and grammar errors."
+        },
+        {
+          "title": "Designing a Database Structure",
+          "text": "Plan and create a database structure for a [software system] that is efficient, scalable, and meets the needs of the users. Consider the types of data that will be stored and the relationships between different data elements. Use database design tools and techniques to create a logical and normalized structure. Test the database to ensure it functions properly and can be easily accessed and updated."
+        },
+        {
+          "title": "Explaining the Code",
+          "text": "Create a document that explains a piece of code to someone who has little to no technical background. Use clear and concise language, along with visual aids like diagrams and code examples, to make the content easy to follow. Consider the target audience, which may be non-technical stakeholders or clients, and tailor the explanation to their needs and interests. Be sure to include any necessary background information and avoid using technical jargon. Test the document by having someone with no coding experience try to understand the code after reading the explanation."
+        },
+        {
+          "title": "Implementing an Algorithm",
+          "text": "Write code to implement an algorithm for a [software system] that solves a specific problem or performs a specific task. Use pseudocode or a flowchart to plan the logic of the algorithm. Consider the performance and efficiency of the algorithm and use best practices for coding style and organization. Test the algorithm to ensure it works correctly and meets the requirements. Document the algorithm and the code implemented for future reference."
+        },
+        {
+          "title": "Improving Code Efficiency",
+          "text": "Analyze a piece of code and suggest improvements to make it run more efficiently. Use [specific techniques] to optimize the code and reduce its complexity. Consider the target audience, which may be the original developer or someone else working with the code, and make sure that the changes are easy to understand and implement. Test the code after making any changes to ensure that it is still functioning properly and meets all requirements."
+        },
+        {
+          "title": "Refactoring Code",
+          "text": "Review and modify existing code to improve its structure, readability, and maintainability. Use best practices for code organization and design to make the code easier to understand and work with. Test the refactored code to ensure it still performs the intended function. Document any changes made and the reasons for them."
+        },
+        {
+          "title": "Writing a Code Guide",
+          "text": "Create a guide that explains the basics of [specific programming language] to someone who is new to coding. Cover the fundamental concepts and provide step-by-step instructions for building a simple project. Utilize clear and concise language, along with visual aids like diagrams and code examples, to make the content easy to follow. Keep in mind the target audience's level of technical knowledge and ensure that the guide is suitable for those who have little to no programming experience. Be sure to test the guide by having a beginner try out the steps to ensure that the instructions are clear and all necessary information is included."
+        },
+        {
+          "title": "Writing Code Reviews",
+          "text": "Conduct code reviews for a [software development] team to ensure the quality and standards of the code are met. Review code changes made by team members to check for errors, bugs, and potential issues. Use coding standards and guidelines to evaluate the code and provide feedback and recommendations for improvement. Consider the maintainability and readability of the code, as well as its efficiency and performance. Use tools and techniques, such as code diff tools, to facilitate the code review process."
+        },
+        {
+          "title": "Writing Technical Documentation",
+          "text": "Create technical documentation for a [software product or service] that accurately and clearly explains how it works to both technical and non-technical audiences. Use clear language and include examples and visuals to aid in understanding. Be sure to cover all necessary information, including installation instructions, usage instructions, and troubleshooting steps. Consider the needs of different user groups and the intended use of the product when writing the documentation."
+        }
+      ]
+    },
+    {
+      "category": "Email Marketing",
+      "prompts": [
+        {
+          "title": "A/B Testing Email Campaign",
+          "text": "Create and run an A/B testing for email campaign targeting [target audience], comparing the effectiveness of different subject lines, layouts, and calls-to-action in encouraging [desired action]. Use data and analytics to measure the success of each email version and identify areas for improvement. Incorporate [specific techniques or elements] such as [social proof, customer testimonials, persuasive language] to build trust and increase urgency. Take into account the [relevant factors or requirements] such as [target audience's interests] and [industry best practices] when making decisions."
+        },
+        {
+          "title": "Building Trust and Credibility through Email",
+          "text": "Write an email for [target audience] that builds trust and credibility by showcasing the unique value of [product/service]. Use customer testimonials and compelling evidence to back up any claims made in the email. Address [potential objections/concerns] in a transparent and honest manner. Also, use [specific techniques or elements], such as [persuasive language, social proof], to increase urgency and encourage [desired action]. Test or proofread the final product to ensure it meets the necessary [standards or criteria], and consider [relevant factors or requirements] such as [target audience's interests] and [industry best practices] when completing the task."
+        },
+        {
+          "title": "Crafting a Compelling Email Story",
+          "text": "Write an email for [target audience] that tells a compelling story that highlights the unique benefits of [product/service]. Use a clear and engaging narrative structure to hook the reader and keep their attention throughout the email. Incorporate [specific techniques or elements], such as [persuasive language, social proof, customer testimonials], to build trust and credibility and encourage [desired action]. Address [potential objections/concerns], and test or proofread the final product to ensure it meets the necessary [standards or criteria]. Consider [relevant factors or requirements] such as [target audience's interests] and [industry best practices] when completing the task."
+        },
+        {
+          "title": "Crafting a Persuasive Email",
+          "text": "Write an email for [target audience] that persuades them to take [desired action] by highlighting the unique benefits of [product/service]. Use persuasive language and compelling evidence to make a strong argument. Incorporate [specific techniques or elements] such as [social proof, customer testimonials] to build trust and credibility. Address [potential objections/concerns], and test or proofread the final product to ensure it meets the necessary [standards or criteria]. Consider [relevant factors or requirements] such as [target audience's interests] and [industry best practices] when completing the task."
+        },
+        {
+          "title": "Crafting a Re-Engagement Email",
+          "text": "Write an email for [target audience] that is designed to re-engage inactive or disengaged subscribers by highlighting the unique benefits of [product/service]. Use [specific techniques or elements], such as [persuasive language, social proof, customer testimonials], to build trust and credibility and encourage [desired action]. Incorporate a clear call-to-action that encourages the recipient to take action and re-engage with the brand. Address [potential objections/concerns], and test or proofread the final product to ensure it meets the necessary [standards or criteria]. Consider [relevant factors or requirements] such as [target audience's interests] and [industry best practices] when completing the task."
+        },
+        {
+          "title": "Crafting a Referral Email",
+          "text": "Write an email for [target audience] that is designed to encourage them to refer their friends or family to [company/brand]. Highlight the benefits of [product/service] for both the referrer and the referred. Use [specific techniques or elements], such as [persuasive language, social proof, customer testimonials], to build trust and credibility and encourage [desired action]. Incorporate a clear call-to-action that guides the recipient to refer others. Address [potential objections/concerns], and test or proofread the final product to ensure it meets the necessary [standards or criteria]. Consider [relevant factors or requirements] such as [target audience's interests] and [industry best practices] when completing the task."
+        },
+        {
+          "title": "Crafting a Retention Email",
+          "text": "Write an email for [target audience] that aims to increase retention by highlighting the value of [product/service] and encouraging repeat purchases. Use [specific techniques or elements], such as [persuasive language, social proof, customer testimonials], to build trust and credibility and encourage [desired action]. Incorporate a clear call-to-action that guides the recipient to make a purchase. Address [potential objections/concerns], and test or proofread the final product to ensure it meets the necessary [standards or criteria]. Consider [relevant factors or requirements] such as [target audience's interests] and [industry best practices] when completing the task."
+        },
+        {
+          "title": "Crafting a Win-back Email",
+          "text": "Write an email for [target audience] that is designed to win back lost customers. Highlight the unique benefits of [product/service] and explain why they should return. Use [specific techniques or elements], such as [persuasive language, social proof, customer testimonials], to build trust and credibility and encourage [desired action]. Incorporate a clear call-to-action that guides the recipient to return. Address [potential objections/concerns], and test or proofread the final product to ensure it meets the necessary [standards or criteria]. Consider [relevant factors or requirements] such as [target audience's interests] and [industry best practices] when completing the task."
+        },
+        {
+          "title": "Crafting an Email for Abandoned Cart Recovery",
+          "text": "Write an email for [target audience] that aims to recover abandoned cart by highlighting the value of [product/service] and providing an incentive to complete the purchase. Use [specific techniques or elements], such as [persuasive language, social proof, customer testimonials], to build trust and credibility and encourage [desired action]. Incorporate a clear call-to-action that guides the recipient to complete the purchase. Address [potential objections/concerns], and test or proofread the final product to ensure it meets the necessary [standards or criteria]. Consider [relevant factors or requirements] such as [target audience's interests] and [industry best practices] when completing the task."
+        },
+        {
+          "title": "Crafting an Email for Content Marketing",
+          "text": "Write an email for [target audience] that delivers valuable and relevant content on a specific topic, such as industry news, tips and tricks, or thought leadership pieces that align with [product/service]. Use [specific techniques or elements], such as [persuasive language, social proof], to highlight the value of the content and the reasons why the recipient should engage with it. Incorporate a clear call-to-action that guides the recipient to access the content or learn more. Address [potential objections/concerns], such as how the content is relevant to the recipient, and provide resources such as additional links or contact information for follow-up. Test or proofread the final product to ensure it meets the necessary [standards or criteria]. Consider [relevant factors or requirements] such as [target audience's interests] and [industry best practices] when completing the task."
+        },
+        {
+          "title": "Crafting an Email for Cross-selling",
+          "text": "Write an email for [target audience] that is designed to cross-sell complementary products or services to [target audience]. Highlight the benefits of the new offering and how it complements their current purchase. Use [specific techniques or elements], such as [persuasive language, social proof, customer testimonials], to build trust and credibility and encourage [desired action]. Incorporate a clear call-to-action that guides the recipient to purchase the new offering. Address [potential objections/concerns], and test or proofread the final product to ensure it meets the necessary [standards or criteria]. Consider [relevant factors or requirements] such as [target audience's interests] and [industry best practices] when completing the task."
+        },
+        {
+          "title": "Crafting an Email for Customer Satisfaction Survey",
+          "text": "Write an email for [target audience] that invites them to participate in a customer satisfaction survey to provide feedback on their experience with [product/service]. Use [specific techniques or elements], such as [persuasive language, social proof], to emphasize the importance of the survey for the ongoing improvement of the [product/service]. Incorporate a clear call-to-action that guides the recipient to take the survey. Address [potential objections/concerns], such as the time required to complete the survey, and offer incentives for participation. Test or proofread the final product to ensure it meets the necessary [standards or criteria]. Consider [relevant factors or requirements] such as [target audience's interests] and [industry best practices] when completing the task. Additionally, be sure to include information on how the survey results will be used and how the feedback will be incorporated into future improvements for the [product/service]."
+        },
+        {
+          "title": "Crafting an Email for Event Invitation",
+          "text": "Write an email for [target audience] that invites them to an upcoming event, such as a trade show, webinar or conference, and provides information about the event schedule, location and speakers. Use [specific techniques or elements], such as [persuasive language, social proof], to highlight the value of the event and the reasons why the recipient should attend. Incorporate a clear call-to-action that guides the recipient to register for the event. Address [potential objections/concerns], such as the cost or date conflict, and provide incentives for early registration. Test or proofread the final product to ensure it meets the necessary [standards or criteria]. Consider [relevant factors or requirements] such as [target audience's interests] and [industry best practices] when completing the task."
+        },
+        {
+          "title": "Crafting an Email for Lead Generation",
+          "text": "Write an email for [target audience] that is designed to generate leads by highlighting the unique benefits of [product/service]. Use [specific techniques or elements], such as [persuasive language, social proof, customer testimonials], to build trust and credibility and encourage [desired action]. Incorporate a clear call-to-action that encourages the recipient to sign up for a free trial or schedule a consultation. Address [potential objections/concerns], and test or proofread the final product to ensure it meets the necessary [standards or criteria]. Consider [relevant factors or requirements] such as [target audience's interests] and [industry best practices] when completing the task."
+        },
+        {
+          "title": "Crafting an Email for Loyalty Program",
+          "text": "Write an email for [target audience] that introduces them to a new loyalty program and encourages them to join and take advantage of the benefits. Use [specific techniques or elements], such as [persuasive language, social proof, customer testimonials], to highlight the value of the loyalty program and the benefits of joining. Incorporate a clear call-to-action that guides the recipient to join the loyalty program. Address [potential objections/concerns], such as the cost of joining or the required commitment, and provide incentives for early signup. Test or proofread the final product to ensure it meets the necessary [standards or criteria]. Consider [relevant factors or requirements] such as [target audience's interests] and [industry best practices] when completing the task."
+        },
+        {
+          "title": "Crafting an Email for New Feature Announcement",
+          "text": "Write an email for [target audience] that announces a new feature or update to a [product/service] they currently use and provides information about the new feature and how it will benefit them. Use [specific techniques or elements], such as [persuasive language, social proof], to highlight the value of the new feature and the reasons why the recipient should use it. Incorporate a clear call-to-action that guides the recipient to try the new feature or update. Address [potential objections/concerns], such as how to use the new feature or if there will be any additional cost, and provide resources such as tutorials or customer support. Test or proofread the final product to ensure it meets the necessary [standards or criteria]. Consider [relevant factors or requirements] such as [target audience's interests] and [industry best practices] when completing the task. Be sure to include any additional information or instructions needed for a smooth transition to the new feature."
+        },
+        {
+          "title": "Crafting an Email for Product launch",
+          "text": "Write an email for [target audience] that announces the launch of a new [product/service] and provides information about its features and benefits. Use [specific techniques or elements], such as [persuasive language, social proof, customer testimonials], to build excitement and interest in the new [product/service]. Incorporate a clear call-to-action that guides the recipient to learn more or pre-order the new [product/service]. Address [potential objections/concerns], such as the release date or the cost, and provide incentives for pre-ordering. Test or proofread the final product to ensure it meets the necessary [standards or criteria]. Consider [relevant factors or requirements] such as [target audience's interests] and [industry best practices] when completing the task."
+        },
+        {
+          "title": "Crafting an Email for Promotions",
+          "text": "Write an email for [target audience] that announces a promotion or sale on [product/service] and encourages them to take advantage of the offer. Use [specific techniques or elements], such as [persuasive language, social proof, customer testimonials], to build trust and credibility and encourage [desired action]. Incorporate a clear call-to-action that guides the recipient to take advantage of the offer. Address [potential objections/concerns], and test or proofread the final product to ensure it meets the necessary [standards or criteria]. Consider [relevant factors or requirements] such as [target audience's interests] and [industry best practices] when completing the task."
+        },
+        {
+          "title": "Crafting an Email for Reminder",
+          "text": "Write an email for [target audience] that reminds them of an upcoming deadline, such as a renewal or payment, and encourages them to take action. Use [specific techniques or elements], such as [persuasive language, social proof], to highlight the importance of meeting the deadline and the consequences of not taking action. Incorporate a clear call-to-action that guides the recipient to take the necessary action. Address [potential objections/concerns], such as difficulty to make the payment or lack of information, and provide resources or contact information to assist. Test or proofread the final product to ensure it meets the necessary [standards or criteria]. Consider [relevant factors or requirements] such as [target audience's interests] and [industry best practices] when completing the task."
+        },
+        {
+          "title": "Crafting an Email for Subscription Renewal",
+          "text": "Write an email for [target audience] that reminds them of the upcoming expiration of their subscription and encourages them to renew. Use [specific techniques or elements], such as [persuasive language, social proof, customer testimonials], to highlight the value of the subscription and the benefits of renewing. Incorporate a clear call-to-action that guides the recipient to renew their subscription. Address [potential objections/concerns], such as the cost of renewal, and provide incentives for early renewal. Test or proofread the final product to ensure it meets the necessary [standards or criteria]. Consider [relevant factors or requirements] such as [target audience's interests] and [industry best practices] when completing the task."
+        },
+        {
+          "title": "Crafting an Email for Survey Follow-up",
+          "text": "Write an email for [target audience] that follows up on a recent survey they have taken and provides them with information on the results, and next steps if any. Use [specific techniques or elements], such as [persuasive language, social proof], to highlight the importance of their feedback and the positive impact it will have on [product/service]. Incorporate a clear call-to-action that guides the recipient to learn more about the results or take action if required. Address [potential objections/concerns], such as how the results will be used, and provide resources or contact information for follow-up. Test or proofread the final product to ensure it meets the necessary [standards or criteria]. Consider [relevant factors or requirements] such as [target audience's interests] and [industry best practices] when completing the task. Additionally, be sure to thank the recipients for their participation and include information on how the survey results will be used to improve the [product/service]."
+        },
+        {
+          "title": "Crafting an Email for Upselling",
+          "text": "Write an email for [target audience] that is designed to upsell a complementary or upgraded version of [product/service]. Highlight the additional features and benefits of the new offering and use [specific techniques or elements], such as [persuasive language, social proof, customer testimonials], to build trust and credibility and encourage [desired action]. Incorporate a clear call-to-action that guides the recipient to purchase the new offering. Address [potential objections/concerns], and test or proofread the final product to ensure it meets the necessary [standards or criteria]. Consider [relevant factors or requirements] such as [target audience's interests] and [industry best practices] when completing the task."
+        },
+        {
+          "title": "Crafting an Email Opt-In Offer",
+          "text": "Create an email opt-in offer for [product/service] that will entice website visitors to sign up for the email list. Identify the ideal customer persona and develop an offer that will be highly valuable to them. Incorporate persuasive language and social proof, and consider the timing and frequency of the offer. Test different versions of the offer and evaluate their effectiveness to optimize the offer."
+        },
+        {
+          "title": "Creating a Sense of Urgency with Email",
+          "text": "Write an email for [target audience] that creates a sense of urgency and prompts them to take [desired action] by highlighting the unique benefits of [product/service]. Use persuasive language and limited-time offers to increase the urgency. Incorporate [specific techniques or elements] such as [social proof, customer testimonials] to build trust and credibility. Address [potential objections/concerns], and test or proofread the final product to ensure it meets the necessary [standards or criteria]. Consider [relevant factors or requirements] such as [target audience's interests] and [industry best practices] when completing the task."
+        },
+        {
+          "title": "Creating a Welcome Email Sequence",
+          "text": "Write a series of welcome emails for [target audience] that will introduce them to [company/brand] and educate them on the benefits of [product/service]. Use [specific techniques or elements], such as [persuasive language, social proof, customer testimonials], to build trust and credibility and encourage [desired action]. Incorporate calls-to-action in each email to guide the recipient through the onboarding process. Address [potential objections/concerns], and test or proofread the final product to ensure it meets the necessary [standards or criteria]. Consider [relevant factors or requirements] such as [target audience's interests] and [industry best practices] when completing the task."
+        },
+        {
+          "title": "Creating an Attention-Grabbing Email",
+          "text": "Write an email for [target audience] that captures their attention and entices them to take [desired action] by emphasizing the unique benefits of [product/service]. Incorporate strong headlines and hooks, as well as persuasive language, to make the email stand out among the recipient's inbox. Consider the [target audience's] interests, and use [specific techniques or elements] such as [social proof, customer testimonials] to increase urgency and build trust. Make sure to address any potential [objections/concerns] and test or proofread the final product to ensure it meets the necessary [standards or criteria]."
+        },
+        {
+          "title": "Creating an Emotional Connection to Persuade Customers",
+          "text": "Create an email for [ideal customer persona] that makes them feel [emotion] about [product/service] and persuades them to take [desired action] with a sense of urgency. Use [specific techniques or elements], such as [persuasive language, social proof, and customer testimonials], to create an emotional connection with the audience and highlight the benefits of taking action. Address [potential objections/concerns], such as uncertainty about the product's effectiveness, and test or proofread the final product to ensure it meets the necessary [standards or criteria]. Consider [relevant factors or requirements] such as [target audience's interests] and [industry best practices] when completing the task."
+        },
+        {
+          "title": "Designing a Drip Email Campaign",
+          "text": "Create a drip email campaign for [product/service] that nurtures leads and guides them through the sales funnel. Plan out a series of automated emails that will be sent over a specified period of time, tailored to the recipient's stage in the sales process. Use [specific techniques or elements], such as [persuasive language, social proof, and customer testimonials] to build trust and credibility with the audience. Incorporate clear calls-to-action that guide the recipient to take the next step in the sales process. Monitor and analyze the performance of the campaign, and make adjustments as necessary. Consider [relevant factors or requirements] such as [industry best practices] and [competitor's strategies] when completing the task."
+        },
+        {
+          "title": "Developing a Holiday Email Re-Engagement Campaign",
+          "text": "Plan a holiday-themed email re-engagement campaign for [product/service] that will win back inactive or disengaged customers and increase holiday sales. Identify the list of inactive customers and segment them into different groups based on their engagement levels. Outline a festive messaging and calls-to-action for each group, and consider how to measure the success of the campaign. Incorporate elements such as persuasive language, social proof, and customer testimonials to re-engage and make them feel valued during the holiday season."
+        },
+        {
+          "title": "Developing a Segmentation Strategy for Email Marketing",
+          "text": "Create an email marketing segmentation strategy for [product/service] by identifying different [target audience] groups and their specific needs and interests. Use data analysis and customer research to understand their behavior and preferences, then segment them into different groups for targeted campaigns. Use [specific techniques or elements], such as [persuasive language, social proof, and customer testimonials] to create effective and personalized messages for each segment. Test and evaluate the success of the strategy, and make adjustments as necessary. Consider [relevant factors or requirements] such as [industry best practices] and [competitor's strategies] when completing the task."
+        },
+        {
+          "title": "Making Customers Feel an Emotion About the Product",
+          "text": "Create an email for [ideal customer persona] that makes them feel [emotion] about [product/service] and convince them to take [desired action]. Use [specific techniques or elements], such as [persuasive language, social proof, and customer testimonials], to create an emotional connection with the audience and highlight the benefits of taking action. Incorporate a clear call-to-action that guides the recipient to take the desired action. Address [potential objections/concerns], such as uncertainty about the product's effectiveness, and test or proofread the final product to ensure it meets the necessary [standards or criteria]. Consider [relevant factors or requirements] such as [target audience's interests] and [industry best practices] when completing the task."
+        },
+        {
+          "title": "Outlining an Email Marketing Strategy",
+          "text": "Create an outline for an overall email marketing strategy for [product/service] that includes goals, target audience, email types, segmentation, automation, and metrics for measuring success. Identify key metrics for measuring the success of the strategy and include plans for testing, optimization and adjustments. Consider [relevant factors or requirements] such as [industry best practices] and [competitor's strategies] when completing the task."
+        },
+        {
+          "title": "Overcoming Objections and Concerns to Persuade Customers",
+          "text": "Create an email for [ideal customer persona] that overcomes objections and concerns they may have about [product/service] and convinces them to take [desired action]. Use [specific techniques or elements], such as [persuasive language, social proof, and customer testimonials], to build trust and credibility with the audience and address any concerns they may have. Test or proofread the final product to ensure it meets the necessary [standards or criteria]. Consider [relevant factors or requirements] such as [target audience's interests] and [industry best practices] when completing the task."
+        },
+        {
+          "title": "Personalizing Email for Increased Engagement",
+          "text": "Write an email for [target audience] that utilizes personalization techniques, such as using the recipient's name and incorporating their past interactions or purchase history, to increase engagement and encourage [desired action]. Use [specific techniques or elements], such as [social proof, customer testimonials], to build trust and credibility. Address [potential objections/concerns], and test or proofread the final product to ensure it meets the necessary [standards or criteria]. Consider [relevant factors or requirements] such as [target audience's interests] and [industry best practices] when completing the task."
+        },
+        {
+          "title": "Persuading Customers to Purchase with Unique Benefits",
+          "text": "Create an email for [ideal customer persona] that convinces them to purchase [product/service] by highlighting its unique benefits and addressing any potential objections. Use [specific techniques or elements], such as [persuasive language, compelling evidence, social proof, and customer testimonials], to increase urgency and build trust and credibility. Address [potential objections/concerns], such as cost or competitors, and test or proofread the final product to ensure it meets the necessary [standards or criteria]. Consider [relevant factors or requirements] such as [target audience's interests] and [industry best practices] when completing the task."
+        },
+        {
+          "title": "Showing How the Product is the Solution",
+          "text": "Create an email for [ideal customer persona] that addresses the pain points and needs of the customers and show them how [product/service] is the solution they've been searching for. Use [specific techniques or elements], such as [persuasive language, social proof, and customer testimonials], to build credibility and trust with the audience and highlight the value of the product. Incorporate a clear call-to-action that guides the recipient to take the desired action. Address [potential objections/concerns], such as doubts about the product's effectiveness, and test or proofread the final product to ensure it meets the necessary [standards or criteria]. Consider [relevant factors or requirements] such as [target audience's interests] and [industry best practices] when completing the task."
+        },
+        {
+          "title": "Signing Up for a Program or Subscription",
+          "text": "Create an email for [ideal customer persona] that convinces them to sign up for [program/subscription] by explaining the value it brings and the benefits they'll receive. Use [specific techniques or elements], such as [persuasive language, social proof, and customer testimonials], to highlight the value of the program and its impact on their experience. Incorporate a clear call-to-action that guides the recipient to sign up for the program or subscription. Address [potential objections/concerns], such as cost or commitment level, and test or proofread the final product to ensure it meets the necessary [standards or criteria]. Consider [relevant factors or requirements] such as [target audience's interests] and [industry best practices] when completing the task."
+        },
+        {
+          "title": "Telling a Story to Persuade Customers",
+          "text": "Create an email for [ideal customer persona] that tells a story about [product/service] and how it has helped them achieve their [goal] in a relatable and engaging way. Use [specific techniques or elements], such as [persuasive language, social proof, and customer testimonials], to build an emotional connection with the audience and highlight the benefits of the product. Incorporate a clear call-to-action that guides the recipient to make a purchase or learn more about the product. Address [potential objections/concerns], such as doubts about the product's effectiveness and test or proofread the final product to ensure it meets the necessary [standards or criteria]. Consider [relevant factors or requirements] such as [target audience's interests] and [industry best practices] when completing the task."
+        },
+        {
+          "title": "Using Customer Testimonials to Build Credibility",
+          "text": "Create an email for [ideal customer persona] that uses customer testimonials to build credibility and trust for [product/service]. Use [specific techniques or elements], such as [persuasive language, social proof, and customer testimonials], to build trust and credibility with the audience and highlight the value of the product. Incorporate a clear call-to-action that guides the recipient to make a purchase or learn more about the product. Address [potential objections/concerns], such as doubts about the product's effectiveness, and test or proofread the final product to ensure it meets the necessary [standards or criteria]. Consider [relevant factors or requirements] such as [target audience's interests] and [industry best practices] when completing the task."
+        },
+        {
+          "title": "Writing a Compelling Email Subject Line",
+          "text": "Write an email subject line that will grab the attention of the [target audience] and encourage them to open the email. Consider the [target audience's] interests, and use strong and descriptive language to make the email stand out in their inbox. Avoid using spam words and keep the subject line concise and to the point. Incorporate [specific techniques or elements], such as [social proof, customer testimonials], to build trust and credibility and encourage [desired action]. Address [potential objections/concerns], and test or proofread the final product to ensure it meets the necessary [standards or criteria]. Consider [relevant factors or requirements] such as [target audience's interests] and [industry best practices] when completing the task."
+        }
+      ]
+    },
+    {
+      "category": "Facebook",
+      "prompts": [
+        {
+          "title": "Crafting a Compelling Facebook Post",
+          "text": "Write a Facebook post for a [company/organization] that will capture the attention of the [target audience] and persuade them to take [desired action]. Use storytelling, emotive language, and engaging visuals to make the post stand out in the crowded Facebook feed. Consider the [relevant factors or requirements] and [target audience's interests] when creating the post. Be sure to [include any additional requirements or considerations] and [test or proofread] the post to ensure it meets the necessary [standards or criteria]."
+        },
+        {
+          "title": "Facebook Ad Audience Research",
+          "text": "Conduct research on the target audience for a Facebook ad campaign for a [business/brand] to gain insights into their demographics, interests, and behaviors. Use [primary and secondary research methods] to gather data and consider the [business's goals and target audience's needs] when analyzing the research findings. Utilize [Facebook's ad targeting tools] and [market research reports] to supplement the research and be sure to [document and organize the findings] in a clear and concise manner."
+        },
+        {
+          "title": "Facebook Ad Campaign",
+          "text": "Plan and execute a Facebook ad campaign for a [business/brand] that targets a specific [customer persona] and drives them to take a [specific action]. Use [demographic and interest targeting, A/B testing, and engaging ad copy] to create effective ads that stand out in the news feed. Consider the [customer's journey] and the [business's goals] when planning the campaign and be sure to [monitor and analyze the campaign's performance] to make any necessary adjustments."
+        },
+        {
+          "title": "Facebook Ad Copywriting",
+          "text": "Write ad copy for a Facebook ad campaign for a [business/brand] that targets a specific [customer persona] and persuades them to take a [specific action]. Use [strong and descriptive language, compelling calls-to-action, and benefits-focused messaging] to make the ad copy stand out in the news feed and persuade the reader. Consider the [customer's pain points and desires] and the [business's unique value proposition] when crafting the ad copy and be sure to [test and optimize the ad copy] to ensure maximum effectiveness."
+        },
+        {
+          "title": "Facebook Ad Creative Brief",
+          "text": "Write a creative brief for a Facebook ad campaign for a [business/brand] that outlines the campaign's goals, target audience, messaging, and creative direction. Use [specific and measurable objectives] to guide the creative process and consider the [customer's journey] and the [business's unique value proposition] when crafting the brief. Utilize [market research and customer insights] to inform the creative direction and be sure to [outline any necessary brand guidelines or restrictions] in the brief."
+        },
+        {
+          "title": "Facebook Ad Creative Development",
+          "text": "Develop creative assets (e.g. images, videos, copy) for a Facebook ad campaign for a [business/brand] that aligns with the campaign's messaging and target audience. Use [market research and customer insights] to inform the creative direction and consider the [customer's journey] and the [business's unique value proposition] when designing the assets. Utilize [design and branding guidelines] to ensure consistency and quality in the final assets and be sure to [test and optimize the assets] to ensure maximum effectiveness."
+        },
+        {
+          "title": "Facebook Ad for a B2B Company",
+          "text": "Create a Facebook ad copy for a B2B company targeting decision makers in the [industry] industry. The ad should highlight the company's expertise and how its products and services can help the target audience achieve their business goals. Use industry-specific language and include data and case studies to support the company's claims. Consider the target audience's pain points and the company's value proposition when completing the task. Be sure to include a clear call-to-action and proofread the final product for grammar and spelling errors."
+        },
+        {
+          "title": "Facebook Ad for a Non-Profit Organization",
+          "text": "Write a Facebook ad copy for a non-profit organization targeting individuals who are passionate about social causes and making a difference in the world. The ad should showcase the organization's mission and how the target audience can get involved and make a positive impact. Use emotional and compelling language, and include inspiring images and stories to engage the target audience. Consider the organization's mission and target audience's interests when completing the task. Be sure to include a strong call-to-action and test the ad using different audiences and targeting options to ensure it performs well."
+        },
+        {
+          "title": "Facebook Ad for a Product Launch",
+          "text": "Create a Facebook ad copy for a new product launch targeting tech-savvy consumers who are interested in innovative and cutting-edge products. The ad should highlight the product's unique features and benefits, and create a sense of urgency for the target audience to purchase the product. Use descriptive and persuasive language, and include high-quality images and videos to showcase the product. Consider the product's target market and competitors when completing the task. Be sure to test the ad using different audiences and targeting options to ensure it performs well."
+        },
+        {
+          "title": "Facebook Ad for a Service-Based Business",
+          "text": "Write a Facebook ad copy for a service-based business targeting busy professionals who value convenience and efficiency. The ad should showcase the business's unique services and how they can help the target audience save time and solve their problems. Use clear and concise language, and include testimonials and case studies to build trust and credibility with the target audience. Consider the business's value proposition and target audience's needs when completing the task. Be sure to include a strong call-to-action and test the ad using different audiences and targeting options to ensure it performs well."
+        },
+        {
+          "title": "Facebook Ad Targeting Research",
+          "text": "Research and select targeting options for a Facebook ad campaign for a [business/brand] that will reach the desired [customer persona]. Use [demographic, location, and interest data] to determine the most effective targeting options and consider the [business's goals and target audience's interests] when making a selection. Utilize [Facebook's ad targeting tools] to experiment with different options and be sure to [test and optimize the targeting] to ensure maximum effectiveness."
+        },
+        {
+          "title": "Facebook Community Engagement Strategy",
+          "text": "Develop a strategy for increasing engagement in a [business/brand's] Facebook community by creating and sharing relevant and valuable content, hosting interactive events and activities, and responding to comments and messages in a timely and helpful manner. Consider the [community's interests and needs] and the [business's goals] when planning the strategy and use [data and analysis] to measure the success of the engagement efforts. Be sure to [refine the strategy as needed] based on the results and [maintain a positive and professional tone] at all times."
+        },
+        {
+          "title": "Facebook Contest",
+          "text": "Design and run a Facebook contest for a [business/brand] that promotes engagement and generates leads. Use [creative and relevant prizes, clear rules and guidelines, and engaging contest mechanics] to make the contest appealing and easy to participate in. Consider the [target audience] and their interests when planning the contest and use [graphics and social media posts] to promote the contest effectively. Be sure to [follow all Facebook contest guidelines] and [collect and manage contest entries] in a organized and transparent manner."
+        },
+        {
+          "title": "Facebook Contest Rules and Regulations",
+          "text": "Write contest rules and regulations for a Facebook contest for a [business/brand] that are clear, fair, and compliant with all relevant laws and guidelines. Use [simple and straightforward language] to outline the contest mechanics, eligibility requirements, and prize details. Consider the [target audience] and any [special considerations or restrictions] when drafting the rules and be sure to [provide a method for resolving disputes] and [include a statement releasing the business from liability]."
+        },
+        {
+          "title": "Facebook Customer Service Response",
+          "text": "Write a Facebook response to a [customer's question or concern] for a [business/brand] that is professional, helpful, and resolves the issue at hand. Use [clear and concise language] and [empathy] to address the customer's needs and concerns. Consider the [company's policies and procedures] and [relevant information] when crafting the response and be sure to [follow up as needed] to ensure the customer's satisfaction."
+        },
+        {
+          "title": "Facebook Event Description",
+          "text": "Write a Facebook event description for a [company/organization] that will attract the [target audience] and persuade them to attend the event. Use descriptive and exciting language to highlight the event's [unique selling points] and create a sense of urgency. Consider the [relevant factors or requirements] and [target audience's interests] when crafting the event description. Be sure to [include any additional requirements or considerations] and [test or proofread] the event description to ensure it meets the necessary [standards or criteria]."
+        },
+        {
+          "title": "Facebook Group Guidelines",
+          "text": "Write Facebook group guidelines for a [specific group/community] to establish rules and expectations for members. Use [clear and concise language] to outline the group's purpose and values, as well as any rules and regulations for posting and commenting. Consider the [target audience] and their needs when drafting the guidelines and be sure to [include a section on how to report violations] and [provide resources for support]."
+        },
+        {
+          "title": "Facebook Group Member Onboarding",
+          "text": "Develop a process for onboarding new members to a Facebook group for a [specific community or business] that is welcoming and informative. Use [personalized communication and relevant resources] to help new members get settled in the group and consider their [questions and needs] when designing the onboarding process. Utilize [automation tools] to streamline the process and be sure to [follow up with new members] to ensure they are getting the most out of their membership."
+        },
+        {
+          "title": "Facebook Group Member Personas",
+          "text": "Create personas for the members of a Facebook group for a [specific community or business] based on their interests, needs, and behaviors to inform the content and engagement strategies. Use [data and analysis] to understand the characteristics and preferences of the group members and consider the [group's purpose and target audience] when creating the personas. Utilize [customer relationship management tools] to organize and manage the personas and be sure to [measure and analyze the effectiveness] of the personas in informing the group's strategies."
+        },
+        {
+          "title": "Facebook Group Welcome Message",
+          "text": "Write a welcome message for a new member of a Facebook group for a [specific community or business] that is welcoming and informative. Use [friendly and inclusive language] to introduce the group and its purpose, as well as any rules or guidelines for participation. Consider the [new member's interests and needs] when crafting the message and be sure to [provide any necessary resources or support] to help them get settled in the group."
+        },
+        {
+          "title": "Facebook Influencer Collaboration",
+          "text": "Collaborate with a Facebook influencer to promote a [business/brand's] product or service to the influencer's followers. Use [clear and concise communication] to establish the terms and goals of the collaboration and consider the [influencer's audience] and their interests when planning the content and promotion. Utilize [tracking and analysis tools] to measure the success of the collaboration and be sure to [follow all necessary guidelines and disclose any sponsored content]."
+        },
+        {
+          "title": "Facebook Influencer Communication Plan",
+          "text": "Create a communication plan for a Facebook influencer collaboration with a [business/brand] that outlines the frequency and methods of communication between the parties. Use [clear and concise language] to establish the expectations and goals of the partnership and consider the [specific details of the collaboration] when drafting the plan. Utilize [project management tools] to stay organized and on track with the communication plan and be sure to [maintain open and transparent communication] at all times."
+        },
+        {
+          "title": "Facebook Influencer Contract",
+          "text": "Create a contract for a Facebook influencer collaboration with a [business/brand] that clearly outlines the terms and expectations of the partnership. Use [legal language and standard clauses] to protect the rights and interests of both parties and consider the [specific details of the collaboration] when drafting the contract. Be sure to [include any necessary disclosures or disclaimers] and [have the contract reviewed by a legal professional] before finalizing it."
+        },
+        {
+          "title": "Facebook Live Script",
+          "text": "Write a script for a Facebook Live event for a [company/organization] that will engage the [target audience] and persuade them to take [desired action]. Use a conversational and authentic tone, and incorporate interactive elements such as Q&A sessions and live polls to keep the audience engaged. Consider the [relevant factors or requirements] and [target audience's interests] when writing the script. Be sure to [include any additional requirements or considerations] and [test or proofread] the script to ensure it meets the necessary [standards or criteria]."
+        },
+        {
+          "title": "Facebook Messenger Bot Script",
+          "text": "Write a script for a Facebook Messenger bot for a [company/organization] that will provide customer service and support to the [target audience]. Use a friendly and helpful tone, and incorporate logic and decision trees to provide personalized responses to user inquiries. Consider the [relevant factors or requirements] and [target audience's interests] when writing the script. Be sure to [include any additional requirements or considerations] and [test or proofread] the script to ensure it meets the necessary [standards or criteria]."
+        },
+        {
+          "title": "Facebook Messenger Marketing plan",
+          "text": "Develop a Facebook Messenger marketing plan for a [company/organization] that will reach the [target audience] and persuade them to take [desired action]. Use personalized and targeted messaging, and incorporate interactive elements such as polls and quizzes to keep the audience engaged. Consider the [relevant factors or requirements] and [target audience's interests] when creating the marketing plan. Be sure to [include any additional requirements or considerations] and [test or proofread] the plan to ensure it meets the necessary [standards or criteria]."
+        },
+        {
+          "title": "Facebook Post for Social Proof",
+          "text": "Create a Facebook post for a [company/organization] that will demonstrate social proof and build credibility among the [target audience]. Use customer testimonials, reviews, and ratings to showcase the product/service's value and build trust. Consider the [relevant factors or requirements] and [target audience's interests] when designing the post. Be sure to [include any additional requirements or considerations] and [test or proofread] the post to ensure it meets the necessary [standards or criteria]."
+        },
+        {
+          "title": "Facebook Post for Traffic",
+          "text": "Write a Facebook post for a [company/organization] that will drive traffic to the [website/product/service]. Use a catchy and relevant headline, and incorporate a clear call-to-action to encourage the user to click through to the desired page. Consider the [relevant factors or requirements] and [target audience's interests] when crafting the post. Be sure to [include any additional requirements or considerations] and [test or proofread] the post to ensure it meets the necessary [standards or criteria]."
+        },
+        {
+          "title": "Facebook Sales Funnel",
+          "text": "Develop a Facebook sales funnel for a [company/organization] that will guide the [target audience] through the purchase process and persuade them to take [desired action]. Use a combination of Facebook ads, posts, and events to nurture leads and guide them towards the final purchase. Consider the [relevant factors or requirements] and [target audience's interests] when creating the sales funnel. Be sure to [include any additional requirements or considerations] and [test or proofread] the funnel to ensure it meets the necessary [standards or criteria]."
+        },
+        {
+          "title": "Facebook Video Script",
+          "text": "Write a script for a Facebook video for a [company/organization] that will educate the [target audience] about a specific topic and persuade them to take [desired action]. Use a compelling and engaging narrative, and incorporate visual elements such as graphics and b-roll footage to keep the video interesting. Consider the [relevant factors or requirements] and [target audience's interests] when writing the script. Be sure to [include any additional requirements or considerations] and [test or proofread] the script to ensure it meets the necessary [standards or criteria]."
+        }
+      ]
+    },
+    {
+      "category": "Instagram",
+      "prompts": [
+        {
+          "title": "Crafting Engaging Instagram Captions",
+          "text": "Write captivating Instagram captions for a [business or personal brand] that will encourage [engagement and user interactions]. Use [ storytelling and humor] to make the post relatable and entertaining. Take into account the [post's visual content, audience, and brand voice] and use [hashtags and call-to-actions] to increase visibility and engagement. Make sure to [proofread] the caption and [test it with a small group] before publishing."
+        },
+        {
+          "title": "Creating Instagram Ad Campaigns that Convert",
+          "text": "Design effective Instagram ad campaigns for a [business or personal brand] that will [drive sales or increase website traffic]. Use [targeted audience and demographics], [creative visual elements and copy], and [A/B testing] to optimize the ads. Take into account [the brand's voice and messaging] and make sure to [include a clear call-to-action] and [track the ad's performance] to measure its effectiveness."
+        },
+        {
+          "title": "Developing a Winning Instagram Marketing Strategy",
+          "text": "Create a comprehensive Instagram marketing strategy for a [business or personal brand] that aims to [increase brand awareness or drive sales]. Utilize [hashtags and influencer marketing] to reach a wider audience and [analytics to track progress]. Take into account the [ target audience and competitors] and use [A/B testing] to optimize the strategy. Make sure to [include a budget] and [regularly review and adapt] the strategy based on results."
+        },
+        {
+          "title": "Developing Instagram Stories That Convert",
+          "text": "Create an Instagram story for a [business or personal brand] that aims to [drive website traffic or generate leads]. Use [animated text or graphics] to make the story engaging and [calls-to-action] to encourage viewers to take action. Take into account the [brand's visual style and target audience] and use [A/B testing] to optimize the story. Make sure to [include a landing page] and [track the story's performance] to measure its effectiveness."
+        },
+        {
+          "title": "Instagram A/B Testing",
+          "text": "Develop a strategy for A/B testing on Instagram for a [business or personal brand] that aims to [optimize content and increase reach and engagement]. Use [data and analytics] to identify the most effective elements to test such as captions, hashtags, and images. Take into account the [target audience and brand's messaging], and use [ongoing testing and optimization] to improve content over time."
+        },
+        {
+          "title": "Instagram Ad Scheduling",
+          "text": "Create a scheduling strategy for Instagram ads for a [business or personal brand] that aims to [maximize ad reach and engagement]. Use [data on peak engagement times and audience behavior] to schedule the ads. Take into account the [target audience location and time zone] and use [A/B testing] to optimize the scheduling strategy. Make sure to [track and analyze the performance of the ads] to measure the effectiveness of the scheduling strategy."
+        },
+        {
+          "title": "Instagram Ad Targeting",
+          "text": "Develop a targeting strategy for Instagram ads for a [business or personal brand] that aims to [reach the most relevant audience and maximize ad spend]. Use [demographic, location, interest and behavior data] to create a target audience for the ads. Take into account the [brand's messaging and target audience] and use [A/B testing] to optimize the targeting strategy. Make sure to [track and analyze the performance of the ads] to measure their effectiveness."
+        },
+        {
+          "title": "Instagram Branded Challenge",
+          "text": "Create and launch an Instagram branded challenge for a [business or personal brand] that aims to [increase engagement and reach]. Use [creative theme and branded hashtag] to make the challenge engaging. Take into account the [target audience and Instagram's promotion policies] and use [user-generated content and collaborations] to increase visibility. Make sure to [choose a winner fairly] and [track the performance of the challenge]."
+        },
+        {
+          "title": "Instagram Concept Ideas",
+          "text": "Develop creative and effective concept ideas for Instagram content for a [business or personal brand] that will [increase reach and engagement] among the target audience. Use [brainstorming and research] to generate ideas that align with the brand's messaging and target audience. Take into account the [current trends and best practices in social media] and use [creativity and a unique perspective] to make the concepts stand out."
+        },
+        {
+          "title": "Instagram Contests and Giveaways for Increased Reach and Engagement",
+          "text": "Develop and execute an Instagram contest or giveaway for a [business or personal brand] that will [increase reach and engagement]. Use [creative themes and prizes] to make the contest engaging. Take into account the [target audience and guidelines of Instagram's promotion policies] and use [hashtags and user-generated content] to increase visibility. Make sure to [choose a winner fairly] and [track the contest's performance]."
+        },
+        {
+          "title": "Instagram Engagement Marketing",
+          "text": "Develop a strategy for Instagram engagement marketing for a [business or personal brand] that aims to [increase engagement and build community among target audience]. Use [data and analytics] to identify the most effective engagement tactics for the brand. Take into account the [target audience and brand's messaging], and use [giveaways, contests, and user-generated content] to increase engagement. Make sure to [track and analyze the performance of the engagement tactics] to measure their effectiveness."
+        },
+        {
+          "title": "Instagram Hashtag Research",
+          "text": "Conduct research to identify the most effective hashtags for a [business or personal brand] on Instagram that will [increase reach and engagement]. Use [Instagram's suggested hashtags and third-party tools] to research popular and relevant hashtags. Take into account the [brand's niche and target audience], and use [competitor research] to identify which hashtags they are using."
+        },
+        {
+          "title": "Instagram IGTV Content Strategy",
+          "text": "Develop a content strategy for a [business or personal brand] that utilizes Instagram's IGTV feature to [increase reach, engagement and create a stronger relationship with audience]. Use [varied content formats and regular posting schedule] to keep the audience interested. Take into account the [target audience and their preferences], and use [creative concepts and call-to-actions] to make the videos engaging. Make sure to [track and analyze the performance of the videos] and [optimize the strategy accordingly]."
+        },
+        {
+          "title": "Instagram Influencer Marketing",
+          "text": "Develop and execute an influencer marketing campaign on Instagram for a [business or personal brand] that will [increase reach and brand awareness]. Use [research and data] to identify the right influencers for the campaign. Take into account [the target audience and brand's messaging] and use [creative campaigns and collaborations] to make the campaign engaging. Make sure to [track and analyze the campaign's performance] to measure its effectiveness."
+        },
+        {
+          "title": "Instagram Live Streaming",
+          "text": "Plan and execute a successful Instagram Live stream for a [business or personal brand] that will [increase engagement and build community]. Use [interactive elements and Q&A sessions] to make the stream engaging. Take into account the [target audience and timing] and use [promotion and collaboration] to increase visibility. Make sure to [have a clear agenda and goals] and [track and analyze engagement data] after the live stream."
+        },
+        {
+          "title": "Instagram Polls and Surveys",
+          "text": "Create and launch Instagram polls and surveys for a [business or personal brand] that aims to [gather valuable information and feedback from target audience]. Use [creative and relevant questions] and make sure they align with the business or personal brand. Take into account the [target audience and their preferences] and use [promotion and collaboration] to increase visibility. Make sure to [analyze the results] and [use the feedback to make improvements] accordingly."
+        },
+        {
+          "title": "Instagram Product Demonstration Video",
+          "text": "Create a series of Instagram product demonstration videos for a [business or personal brand] that will [showcase the features and benefits of their products or services] in an engaging way. Use [short, easy-to-digest format] and include [visuals and on-screen text] to explain the key benefits and features. Take into account the [target audience and their needs] and use [customer testimonials or before and after shots] to build trust and credibility. Make sure to [include a call-to-action] in the video and to [test the video's performance] regularly to optimize engagement."
+        },
+        {
+          "title": "Instagram Reposting Strategy",
+          "text": "Develop a reposting strategy for a [business or personal brand] Instagram account that aims to [increase reach and engagement by featuring relevant content from other users or brands]. Use [hashtags, user-generated content and influencer marketing] to find suitable content to repost. Take into account the [brand's visual style, messaging and target audience] and use [permissions and credit to original creators] when reposting content. Make sure to [track and analyze the performance of the reposted content]."
+        },
+        {
+          "title": "Instagram Shoppable Posts for Increased Sales",
+          "text": "Create shoppable Instagram posts for a [business or personal brand] that will [drive sales and increase customer engagement]. Use [product tagging and call-to-action buttons] to make the post actionable. Take into account the [target audience and product offerings] and use [promotion and partnership] to increase visibility. Make sure to [test the feature] and [track the post's performance] to measure its effectiveness."
+        },
+        {
+          "title": "Instagram Story Ads",
+          "text": "Create a strategy for Instagram story ads for a [business or personal brand] that aims to [increase reach, engagement and conversions]. Use [data and analytics] to identify the most effective target audience, ad placement, and ad format for the brand. Take into account the [brand's messaging and offerings] and use [high-quality visuals and calls-to-action] to make the ads more engaging. Make sure to [track and analyze the performance of the ads] to measure their effectiveness and optimize the ad strategy over time."
+        },
+        {
+          "title": "Instagram Story Exclusive Offer",
+          "text": "Create an Instagram story for a [business or personal brand] that provides a unique and compelling offer to the [ideal customer persona] and persuades them to take [desired action] with a sense of urgency and exclusivity. Use [limited time offers, product discounts, and special promotions] to create a sense of urgency. Consider the [ideal customer persona's values and preferences] and use [compelling and relatable language] to make the message more persuasive. Make sure to [include a call-to-action] and [track and analyze the performance of the story]."
+        },
+        {
+          "title": "Instagram Story Highlight Covers",
+          "text": "Create visually appealing Instagram story highlight covers for a [business or personal brand] that will make their profile stand out. Use [graphics, typography and color scheme] to create a cohesive look. Take into account the [brand's visual identity and target audience] and use [testimonials or customer reviews] to build trust and credibility. Make sure to [include a call to action] and to [test the cover's performance] regularly to optimize engagement."
+        },
+        {
+          "title": "Instagram Story Unique Features",
+          "text": "Create an Instagram story for a [business or personal brand] that showcases the unique features and benefits of the [product or service] to the [ideal customer persona] in a creative and engaging way. Use [animated graphics, product demonstrations, and customer testimonials] to highlight the unique selling points. Consider the [ideal customer persona's needs and pain points] and use [compelling copy and calls-to-action] to persuade them to take [desired action]. Make sure to [include a call-to-action] and [track and analyze the performance of the story]."
+        },
+        {
+          "title": "Instagram Takeover Campaign",
+          "text": "Develop and execute an Instagram takeover campaign for a [business or personal brand] that aims to [increase brand awareness, reach and engagement]. Use [influencers or brand ambassadors] to take over the brand's account for a period of time and share their unique perspective and experiences. Take into account the [target audience and message alignment] when selecting the influencer or brand ambassadors, and use [promotion and collaboration] to increase visibility. Make sure to [track and analyze the campaign's performance] to measure its effectiveness."
+        },
+        {
+          "title": "Producing Instagram Reels That Go Viral",
+          "text": "Create an Instagram reel for a [business or personal brand] that will [go viral and increase brand awareness]. Use [music, captions, and visual effects] to make the reel entertaining and engaging. Take into account the [target audience and trending topics] and use [hashtags and collaborations] to increase visibility and engagement. Make sure to [include a call-to-action] and [track the reel's performance] regularly to optimize its reach and impact."
+        }
+      ]
+    },
+    {
+      "category": "Midjourney",
+      "prompts": [
+        {
+          "title": "Enhance your Midjourney Prompts!",
+          "text": "I want you to act as a prompt generator for Midjourney's artificial intelligence program. Your job is to provide detailed and creative descriptions that will inspire unique and interesting images from the AI. Keep in mind that the AI is capable of understanding a wide range of language and can interpret abstract concepts, so feel free to be as imaginative and descriptive as possible. For example, you could describe a scene from a futuristic city, or a surreal landscape filled with strange creatures. The more detailed and imaginative your description, the more interesting the resulting image will be. Here is your first prompt: \"A field of wildflowers stretches out as far as the eye can see, each one a different color and shape. In the distance, a massive tree towers over the landscape, its branches reaching up to the sky like tentacles.\""
+        },
+        {
+          "title": "Mobile App design",
+          "text": "fitness app, flat vector, Figma, dribbble, user interface –-v 4"
+        },
+        {
+          "title": "Create cute characters",
+          "text": "mascot for a guitar brand, super cute, 2d –v 4"
+        },
+        {
+          "title": "Minimal Logo Emblem",
+          "text": "logo abstract symbol, skyscraper, minimal, black, white background, vector, flat, dribbble"
+        },
+        {
+          "title": "Create Character Concept Art",
+          "text": "concept art, concept character design, pencil sketch, drawing, character, full body, Cute, defined facial structure, front view, side view, back view, orthographic –v 4"
+        },
+        {
+          "title": "Design a modern travel website",
+          "text": "high-resolution interface, travel foreign guide beautiful interface THAILAND, UI design, website, website windows, iOS, Apple Design Award, usability, single screen, flat colors, Helvetica, native website, design, user interface, Figma, Apple Store, Asia, Dribbble v 4"
+        },
+        {
+          "title": "Modern Archictecture",
+          "text": "the suburban home, American architecture, ultra realistic, style of Craig Mullins and James Jean, octane render, 8k, California, mid century, hollywood hills –v 4"
+        },
+        {
+          "title": "Pencil drawings",
+          "text": "A pencil line drawing of the Brandenburger Gate"
+        },
+        {
+          "title": "Isometric images",
+          "text": "Cute isometric restaurant, made with Blender –v 4"
+        },
+        {
+          "title": "Create Beautiful App Icons",
+          "text": "Beautiful application icon for a dating app, design, ux/ui, ux, ui --v 4 --q 2"
+        },
+        {
+          "title": "Character creation",
+          "text": "[little girl character], multiple poses and expressions, [children book illustration style], [simple, cute, 5 year old girl, full color, red shoes, red hooded dress, red clothes, long brown hair], flat color, --no outline"
+        }
+      ]
+    },
+    {
+      "category": "Newsletter",
+      "prompts": [
+        {
+          "title": "Building a Subscriber Base for a Newsletter",
+          "text": "Develop a strategy for attracting and retaining subscribers for a [monthly newsletter] targeted at [professionals in a specific industry]. Use social media, email marketing, and targeted ads to reach potential subscribers and incentivize them to sign up. Consider offering exclusive content or discounts to encourage retention. Make sure to track and analyze metrics to continuously optimize and improve the strategy. Be sure to [include any additional requirements or considerations] and [test or proofread] the strategy to ensure it meets the necessary [standards or criteria]."
+        },
+        {
+          "title": "Crafting a Newsletter Table of Contents",
+          "text": "Create a table of contents for a [monthly newsletter] that organizes and presents the content in a clear and logical way. Use headings and subheadings to break up the content and make it easy for readers to find what they are looking for. Consider including links to jump to different sections or to external resources. Make sure the table of contents is visually appealing and easy to read."
+        },
+        {
+          "title": "Crafting a Newsletter that Connects With Readers",
+          "text": "Write a newsletter that fosters a sense of community and connection among readers. Use a friendly and personal tone and consider including reader submissions or a discussion forum to encourage interaction. Consider using quotes or excerpts to spark conversation and promote a common interest. Make sure to proofread and edit the final product for clarity and accuracy."
+        },
+        {
+          "title": "Crafting an Attention-Grabbing Newsletter",
+          "text": "Write a newsletter for a [small business] that will engage and inform its readers. Use eye-catching headlines and visually appealing design elements to draw the reader in. Consider including a mix of articles, updates, and promotional content that speaks to the [target audience's needs and interests]. Be sure to proofread the final product and make any necessary revisions to ensure clarity and accuracy."
+        },
+        {
+          "title": "Creating a Newsletter for a Niche Audience",
+          "text": "Write a newsletter for a [special interest group] that appeals to a specific and highly-targeted audience. Use language and content that resonates with the group and consider including articles, updates, and resources that are relevant and useful to them. Make sure to proofread and edit the final product for clarity and accuracy."
+        },
+        {
+          "title": "Creating a Newsletter that Converts",
+          "text": "Write a newsletter for an [e-commerce store] that persuades readers to make a purchase. Use persuasive language and include customer testimonials and product demonstrations to build trust and showcase the benefits of the products. Include clear calls-to-action and make it easy for readers to complete a purchase. Test different subject lines and formatting to find the most effective approach."
+        },
+        {
+          "title": "Writing a Compelling Newsletter Introduction",
+          "text": "Write an introduction for a [weekly newsletter] that sets the tone and captures the reader's attention. Use strong and descriptive language and consider including a catchy headline or a compelling story. Make sure the introduction clearly communicates the purpose and content of the newsletter and encourages the reader to continue reading."
+        },
+        {
+          "title": "Writing a Customer-Focused Newsletter",
+          "text": "Write a newsletter for a [retail store] that addresses the needs and interests of the customers. Use customer feedback and data to inform the content and focus on topics that will be most relevant and useful to the audience. Consider including special offers, such as discounts or promotions, to encourage readers to visit the store. Make sure to proofread and edit the final product for clarity and accuracy."
+        },
+        {
+          "title": "Writing a Newsletter That Builds Community",
+          "text": "Write a newsletter that fosters a sense of community and connection among readers. Use a friendly and personal tone and consider including reader submissions or a discussion forum to encourage interaction. Make sure the newsletter includes updates and information that is relevant and useful to the audience and encourages them to get involved."
+        },
+        {
+          "title": "Writing a Newsletter That Inspires Action",
+          "text": "Write a newsletter that inspires readers to take action in support of a specific cause or issue. Use clear and concise language to explain the issue and its importance, and consider including quotes, statistics, and stories to illustrate the points. Make sure the newsletter includes a clear call-to-action, such as a petition or a way to get involved, and encourages readers to take action."
+        }
+      ]
+    },
+    {
+      "category": "SaaS",
+      "prompts": [
+        {
+          "title": "Crafting a SaaS Company Culture Handbook",
+          "text": "Create a company culture handbook for a [SaaS company] that effectively communicates the values, vision, and mission of the company, as well as the expectations and behaviors of the employees. Utilize company branding and messaging to inform the handbook and make it consistent with the company's identity. Consider the specific needs and goals of the employees and tailor the handbook accordingly. Include sections on the company's history, mission and values, employee benefits, and code of conduct. Utilize formatting techniques, such as headings and bullet points, to make the handbook easy to scan and read. Proofread and edit the handbook to ensure it is error-free and meets the company's standards."
+        },
+        {
+          "title": "Crafting a SaaS Investor Pitch",
+          "text": "Create an investor pitch for a [SaaS company] that effectively conveys the value of the product and persuades the potential investor to invest. Use a clear and compelling language and highlight the unique capabilities and benefits of the product. Utilize data and customer testimonials to support the value proposition. Consider the specific needs and goals of the potential investor and tailor the pitch accordingly. Use formatting techniques, such as headings and bullet points, to make the pitch easy to scan and read. Practice and refine the pitch to ensure it is confident and compelling."
+        },
+        {
+          "title": "Crafting a SaaS Job Description",
+          "text": "Develop a job description for a [SaaS company] that effectively communicates the responsibilities, qualifications, and expectations for a specific role. Use a clear and concise language and highlight the key skills and experience required for the role. Consider the specific needs and culture of the company and tailor the job description accordingly. Utilize industry-specific terminology and skills to attract the right candidates. Proofread and edit the job description to ensure it is error-free and meets the company's standards."
+        },
+        {
+          "title": "Crafting a SaaS Press Release",
+          "text": "Write a press release for a [SaaS company] announcing a new product launch or major update. Use a clear and concise format to effectively communicate the key information to the media and potential customers. Highlight the unique value proposition of the product and how it addresses a specific problem or need in the market. Include quotes from company leaders and customer testimonials to add credibility and personalization. Proofread and edit the press release to ensure it is error-free and meets the standards of the media outlet it will be sent to."
+        },
+        {
+          "title": "Creating a SaaS Marketing Plan",
+          "text": "Develop a marketing strategy for a [SaaS company] targeting [small businesses] that aims to increase brand awareness and drive sales. Utilize various tactics such as social media campaigns, email marketing, and content creation to reach the target audience effectively. Consider the budget and resources available, as well as the unique selling points of the product. Make sure to research the target market and their pain points to tailor the messaging to their needs. Test different campaigns and analyze the results to continuously optimize and improve the plan."
+        },
+        {
+          "title": "Creating a SaaS Sales Process",
+          "text": "Develop a sales process for a [SaaS company] that guides the sales team in effectively identifying and qualifying leads, and persuading them to purchase the product. Utilize a mix of tactics, such as cold calling, emailing, and demoing, to reach and engage with the leads. Consider the specific needs and pain points of the target audience and tailor the sales process accordingly. Utilize data and customer feedback to continuously optimize and improve the sales efforts. Make sure to consider the cost of acquiring new customers and the long-term sustainability of the sales process."
+        },
+        {
+          "title": "Creating a SaaS Social Media Plan",
+          "text": "Develop a social media plan for a [SaaS company] that effectively promotes the product and engages with the target audience. Utilize various social media platforms, such as Facebook, Twitter, and LinkedIn, to reach the target audience effectively. Use a mix of content, such as industry news, company updates, and customer stories, to make the social media presence diverse and engaging. Consider the tone and voice of the brand, as well as the interests and preferences of the target audience, when creating the content. Utilize analytics and metrics to measure the performance of the social media efforts and continuously optimize and improve the plan."
+        },
+        {
+          "title": "Creating a SaaS User Guide",
+          "text": "Develop a user guide for a [SaaS platform] that helps users navigate and utilize all the features and functionality of the product. Use clear and concise language. Consider the technical proficiency of the target audience and design the guide accordingly. Organize the content in a logical and easy-to-follow structure. Include a search function and links to relevant resources for further support. Test the guide with a small group of users to gather feedback and make any necessary improvements."
+        },
+        {
+          "title": "Designing a SaaS Customer Survey",
+          "text": "Create a customer survey for a [SaaS company] that effectively gathers feedback and insights from the customers about their experience with the product and the company. Consider the specific needs and pain points of the target audience and tailor the survey accordingly. Utilize a mix of open-ended and closed-ended questions to gather both qualitative and quantitative data. Use a clear and concise language and make the survey as short and easy to complete as possible. Utilize the data from the survey to inform and improve the product and customer experience."
+        },
+        {
+          "title": "Designing a SaaS Marketing Collateral",
+          "text": "Create marketing collateral, such as brochures or product sheets, for a [SaaS company] that effectively communicates the value proposition and unique selling points of the product. Utilize social proof, such as customer testimonials and case studies, to build credibility and trust. Consider the specific needs and pain points of the target audience and tailor the messaging accordingly. Use formatting techniques, such as headings and bullet points, to make the content easy to scan and read. Proofread and edit the collateral to ensure it is error-free and meets the company's standards."
+        },
+        {
+          "title": "Developing a SaaS Customer Retention Plan",
+          "text": "Create a customer retention plan for a [SaaS company] that effectively retains and grows the customer base. Utilize various tactics, such as customer success programs, loyalty rewards, and upselling and cross-selling, to keep the customers engaged and satisfied. Consider the specific needs and pain points of the target audience and tailor the retention plan accordingly. Utilize data and customer feedback to continuously optimize and improve the retention efforts. Make sure to consider the cost of acquiring new customers compared to retaining existing ones."
+        },
+        {
+          "title": "Developing a SaaS Customer Support Script",
+          "text": "Create a script for a [SaaS company's] customer support team that guides them in effectively handling and resolving customer inquiries and issues. Use a friendly and professional tone, and utilize active listening and problem-solving skills to ensure a positive customer experience. Consider the common questions and issues that the support team encounters and tailor the script accordingly. Include scripts for both phone and chat support, as well as for handling difficult or upset customers. Test the script with a small group of support agents to gather feedback and make any necessary improvements."
+        },
+        {
+          "title": "Developing a SaaS Email Marketing Campaign",
+          "text": "Create an email marketing campaign for a [SaaS company] that effectively promotes the product and engages with the target audience. Use a clear and compelling subject line and email copy to grab the reader's attention and persuade them to take action. Utilize segmentation and personalization to tailor the messaging to the specific needs and interests of the target audience. Include a mix of content, such as industry news, company updates, and customer stories, to make the emails diverse and engaging. Utilize analytics and metrics to measure the performance of the campaign and continuously optimize and improve it."
+        },
+        {
+          "title": "Developing a SaaS Sales Pitch",
+          "text": "Create a sales pitch for a [SaaS solution] targeting [enterprise companies] that effectively conveys the value of the product and persuades the potential customer to purchase. Use data and customer testimonials to back up the product's capabilities and benefits. Consider the specific needs and pain points of the target company and tailor the pitch accordingly. Practice and refine the pitch to ensure it is confident and compelling. Test the pitch with a small group of potential customers to gather feedback and make any necessary improvements."
+        },
+        {
+          "title": "Writing a SaaS Blog Post",
+          "text": "Create a blog post for a [SaaS company] that educates and informs the target audience about a specific aspect of the product or the industry. Use a compelling headline and engaging introduction to draw the reader in. Utilize examples, statistics, and expert quotes to support the content and make it more credible. Consider the interests and needs of the target audience and tailor the post accordingly. Use formatting techniques, such as subheadings and bullet points, to make the content easy to scan and read. Proofread and edit the post to ensure it is error-free and meets the company's standards."
+        },
+        {
+          "title": "Writing a SaaS Business Plan",
+          "text": "Develop a business plan for a [SaaS company] that outlines the vision, mission, goals, and strategy of the company. Use a clear and concise language and include various elements, such as market analysis, competitive analysis, target audience, marketing and sales plan, and financial projections. Consider the specific needs and challenges of the industry and tailor the business plan accordingly. Utilize data and research to support the plan and make it more credible. Make sure to consider the long-term sustainability and growth potential of the business. Proofread and edit the business plan to ensure it is error-free and meets the company's standards."
+        },
+        {
+          "title": "Writing a SaaS Case Study",
+          "text": "Develop a case study for a [SaaS company] that showcases the impact and success of the product for a specific customer. Use a compelling title and introduction to draw the reader in. Utilize quotes, statistics, and results to illustrate the value of the product and how it addressed the customer's needs and challenges. Consider the interests and preferences of the target audience and tailor the case study accordingly. Use formatting techniques, such as subheadings and bullet points, to make the content easy to scan and read. Proofread and edit the case study to ensure it is error-free and meets the company's standards."
+        },
+        {
+          "title": "Writing a SaaS Partnership Proposal",
+          "text": "Create a partnership proposal for a [SaaS company] that effectively conveys the value of collaborating with the company and persuades the potential partner to accept the proposal. Use a clear and compelling language and highlight the unique capabilities and benefits of the product. Utilize data and customer testimonials to support the value proposition. Consider the specific needs and goals of the potential partner and tailor the proposal accordingly. Use formatting techniques, such as headings and bullet points, to make the proposal easy to scan and read. Proofread and edit the proposal to ensure it is error-free and meets the company's standards."
+        },
+        {
+          "title": "Writing a SaaS Website Copy",
+          "text": "Create website copy for a [SaaS company] that effectively communicates the value proposition and unique selling points of the product. Use a clear and compelling tone and language to grab the visitor's attention and persuade them to take action. Utilize social proof, such as customer testimonials and case studies, to build credibility and trust. Consider the specific needs and pain points of the target audience and tailor the messaging accordingly. Use formatting techniques, such as headings and bullet points, to make the content easy to scan and read. Proofread and edit the copy to ensure it is error-free and meets the company's standards."
+        },
+        {
+          "title": "Writing a SaaS White Paper",
+          "text": "Create a white paper for a [SaaS company] that educates and informs the target audience about a specific aspect of the product or the industry in a comprehensive and in-depth way. Use a compelling title and introduction to draw the reader in. Utilize research, statistics, and expert opinions to support the content and make it more credible. Consider the interests and needs of the target audience and tailor the white paper accordingly. Use formatting techniques, such as subheadings and bullet points, to make the content easy to scan and read. Proofread and edit the white paper to ensure it is error-free and meets the company's standards."
+        }
+      ]
+    },
+    {
+      "category": "SEO",
+      "prompts": [
+        {
+          "title": "Crafting Meta Descriptions for SEO",
+          "text": "Write compelling meta descriptions for a [website] that will improve the website's search engine rankings and attract clicks from the search results. Use the targeted keywords in the meta descriptions while also including a call to action and a sense of value for the user. Keep the meta descriptions concise and to the point, within the character limit. Consider the website's overall content and tone when writing the meta descriptions. Be sure to test and optimize the meta descriptions for maximum effectiveness."
+        },
+        {
+          "title": "Creating an SEO-Friendly slug from a title",
+          "text": "hyphenate for a SEO URL-friendly slug and convert to lowercase [Create and Market Your Children's Book Masterpiece on Amazon]"
+        },
+        {
+          "title": "Creating an SEO-Friendly title from a slug",
+          "text": "Convert this slug into an SEO friendly title [create-and-market-your-childrens-book-masterpiece-on-amazon]"
+        },
+        {
+          "title": "Creating an SEO-Friendly Content Marketing Strategy",
+          "text": "Develop a content marketing strategy for a [website] that is optimized for search engine visibility and attracts organic traffic. Research and identify popular and relevant topics to write about on a regular basis. Use keyword research to inform the topic selection and include targeted keywords in the titles and body text of the content. Consider the target audience and their interests when selecting the topics. Use techniques such as social media promotion and email marketing to amplify the reach of the content. Be sure to make any necessary adjustments to the strategy."
+        },
+        {
+          "title": "Creating an SEO-Friendly FAQ Section",
+          "text": "Create an FAQ section for a [website] that is optimized for search engines and attracts relevant traffic. Research and identify popular and relevant questions to include in the section. Use keyword research to inform the question selection and include targeted keywords in the questions and answers. Consider the target audience and their needs when selecting the questions. Use techniques such as formatting the questions and answers as headings and lists to improve the section's readability and SEO."
+        },
+        {
+          "title": "Developing an SEO Strategy for a New Website",
+          "text": "Create an SEO strategy for a [new website] that will drive organic traffic and search engine rankings. Research the target audience and industry to identify relevant keywords and topics to focus on. Develop on-page and technical SEO recommendations for the website, such as optimizing titles and headers, improving site speed, and adding alt text to images. Consider the website's competition and current search landscape when developing the strategy. Be sure to make any necessary adjustments to the strategy."
+        },
+        {
+          "title": "Writing SEO-Friendly Alt Text for Images",
+          "text": "Write alt text for a [website's] images that is optimized for search engines and improves the website's overall SEO. Use keyword research to identify relevant terms to include in the alt text. Keep the alt text concise and to the point, and make sure it accurately describes the image and its context on the website. Be sure to test and optimize the alt text for maximum effectiveness."
+        },
+        {
+          "title": "Writing SEO-Friendly Headlines",
+          "text": "Write compelling headlines for a [website] that are optimized for search engines and attract clicks from the search results. Use keyword research to identify relevant and popular terms to include in the headlines. Keep the headlines concise and to the point, and use strong and descriptive language to make them stand out. Consider the website's overall tone and style when writing the headlines. Be sure to test and optimize the headlines for maximum effectiveness."
+        }
+      ]
+    },
+    {
+      "category": "PPC marketers",
+      "prompts": [
+        {
+          "title": "Produce a viable A/B test for responsive search ads (RSAs)",
+          "text": "Create two Google Ads in an RSA format (using multiple headlines and descriptions) for an A/B test for “Ms. Hvac’s HVACs.” Explain why the ads would make a good test."
+        },
+        {
+          "title": "Get creative concepts for responsive display ads (RDAs)",
+          "text": "I need to create some responsive display ads for a Google Ads campaign. Please suggest images, headlines and descriptions for a meatless shepherd’s pie with spokesperson Paul McCartney. Lyric puns are acceptable"
+        },
+        {
+          "title": "Optimize your landing pages",
+          "text": "What can a person do from this page, and why would they want to do it? [LP URL]"
+        },
+        {
+          "title": "Rewrite a headline",
+          "text": "Rewrite a headline for [LP URL] that explains [unique value proposition] and includes the phrase [keyword phrase]"
+        },
+        {
+          "title": "Create a SWOT analysis for your company",
+          "text": "Please write a SWOT analysis for EGO power products. Include strengths, weaknesses, opportunities and threats."
+        },
+        {
+          "title": "Build a display media plan",
+          "text": "If I were going to run ads for Impossible Foods on the Google Display Network, what types of sites and channels should I target?"
+        },
+        {
+          "title": "Conduct competitor research",
+          "text": "Create a list of competitors for [my company] and their estimated monthly paid search spend. Include the company name, website URL, and estimated monthly spend."
+        },
+        {
+          "title": "list of competitors",
+          "text": "Please create a list of competitors to clickup.com. List the name of the company, the location of their headquarters, the size of the company (small, medium or large) and whether they are a direct or indirect competitor. Please compile the results in a table format."
+        },
+        {
+          "title": "Investigate performance change",
+          "text": "My conversions from paid traffic are down 20% month over month. What metrics and dimensions should I look at to find the cause?"
+        },
+        {
+          "title": "Generate an experiment summary",
+          "text": "You are documenting a channel experiment where you tested the hypothesis that by [testing X] will achieve [desired outcome]. These were the results [Insert test results]. Write me an Experiment Summary answering the question, ‘What are the big takeaways from this experiment?"
+        },
+        {
+          "title": "Stress-test your assumptions",
+          "text": "I’m going to tell my client that paid search performance is down month over month because of seasonality. How might they respond that would challenge my conclusion?"
+        },
+        {
+          "title": "Create a budget request email",
+          "text": "Write a brief email to a client asking for $15K additional budget because there’s opportunity to increase lead volume below the target CPA."
+        },
+        {
+          "title": "Customize communication for personality type",
+          "text": "Using the DiSC profile, write one email for the Dominant personality, and write another version for the Steady personality."
+        }
+      ]
+    },
+    {
+      "category": "Web Development",
+      "prompts": [
+        {
+          "title": "Pretend you are siri",
+          "text": "Pretend you are siri, an extremely foolish “ai” made up of a number of if-else phrases. When I say, “Hey Siri,” you answer."
+        },
+        {
+          "title": "JavaScript tip",
+          "text": "Please make a JavaScript tip. I would like to share it with the Twitter Tech Community."
+        },
+        {
+          "title": "Scrape a Website using Python",
+          "text": "I want to scrape a website using python and Beautiful Soup. Which are the steps? Show me the necessary code."
+        }
+      ]
+    },
+    {
+      "category": "youtube",
+      "prompts": [
+        {
+          "title": "Creating a YouTube Channel Strategy",
+          "text": "Develop a comprehensive plan to grow and monetize a YouTube channel focused on [specific niche]. This will include creating [engaging content, a consistent upload schedule, and a strong branding] to attract and retain viewers. Also, Use [social media promotion, collaborations, and partnerships] to increase the reach and visibility of the channel. Also, it's important to consider the [competition in the niche] and the [viewer demographics and behavior] to make sure that the content and promotion strategy is tailored to the target audience. Be sure to [test the different aspects of the plan using YouTube analytics] and make adjustments as necessary."
+        },
+        {
+          "title": "YouTube Ad Campaign Planning",
+          "text": "Develop an ad campaign for a YouTube channel that [increases brand awareness, leads, or sales] by reaching [specific target audience]. Utilize [various ad formats, targeting options, and A/B testing] to optimize the performance of the campaign. Also, it is important to consider the [marketing objectives, budget and competition] to make sure that the ad campaign is tailored to the business needs. Be sure to [track and analyze the campaign's performance using YouTube analytics] and make adjustments as necessary to improve results."
+        },
+        {
+          "title": "YouTube Channel Branding",
+          "text": "Develop a consistent and cohesive brand for a YouTube channel that [differentiates it from the competition and resonates with the target audience]. Utilize [color schemes, logo, typography and channel art] to create a visual identity that aligns with the channel's message and goals. Also, it is important to consider the [viewer demographics, interests, and behavior] when creating the brand. Make sure to [consistently use the brand elements across all videos, descriptions, and promotional materials] to establish recognition and trust among viewers. Be sure to [test the brand using YouTube analytics and audience feedback] and make adjustments as necessary."
+        },
+        {
+          "title": "YouTube Channel Growth",
+          "text": "Create a strategy for growing a YouTube channel by [utilizing various methods such as social media promotion, email marketing, and collaborations]. Utilize [audience research, analytics, and partnerships] to identify growth opportunities and target the right audiences. Consider the [viewer demographics, interests and behavior], [competition in the niche], and [channel's goals and objectives] when creating the growth plan. Make sure to [create a consistent and cohesive brand and content across all platforms] in order to establish recognition and trust among viewers. Be sure to [track the performance of growth methods using YouTube analytics] and adjust the strategy as necessary."
+        },
+        {
+          "title": "YouTube Channel Monetization",
+          "text": "Develop a strategy to monetize a YouTube channel by [utilizing various methods such as sponsorships, affiliate marketing, and product placement]. Utilize [audience research, analytics, and partnerships] to identify monetization opportunities and target the right brands and companies. Consider the [viewer demographics, interests and behavior], [competition in the niche], and [channel's goals and objectives] when creating the monetization plan. Make sure to [disclose sponsored or affiliate content clearly and comply with legal and YouTube guidelines] to maintain transparency and credibility with the audience. Be sure to [track the performance of monetization methods using YouTube analytics] and adjust the strategy as necessary."
+        },
+        {
+          "title": "YouTube Channel Theme and Branding",
+          "text": "Create a consistent theme and branding for a YouTube channel that [aligns with the channel's goals and objectives and appeals to the target audience]. Utilize [audience research, analytics, and partnerships] to identify opportunities for creating a cohesive look and feel for the channel. Consider the [viewer demographics, interests, and behavior], [competition in the niche], and [channel's goals and objectives] when creating the theme and branding. Be sure to [test the theme and branding using YouTube analytics and audience feedback] and make adjustments as necessary to improve its performance."
+        },
+        {
+          "title": "YouTube Channel Trailer",
+          "text": "Create an engaging channel trailer that [highlights the best content of the YouTube channel and encourages viewers to subscribe]. Utilize [creative storytelling, striking visuals, and branding] to capture the viewer's attention and convey the channel's message and goals. Consider the [viewer demographics, interests, and behavior] when creating the trailer. Make sure to [include a call to action at the end of the trailer] to encourage viewers to subscribe to the channel. Be sure to [test the trailer using YouTube analytics and audience feedback] and make adjustments as necessary to improve its performance."
+        },
+        {
+          "title": "YouTube Collaborations and Partnerships",
+          "text": "Develop and execute a strategy for YouTube collaborations and partnerships that [increases the reach and visibility of the channel]. Utilize [social media promotion, networking, and influencer outreach] to identify and establish relationships with other content creators and brands in the niche. Consider the [viewer demographics and behavior] and [competition in the niche] when selecting collaborators and partners. Make sure to [negotiate mutually beneficial terms and agreements] for collaborations and partnerships. Be sure to [track the results of collaborations and partnerships using YouTube analytics] and adjust the strategy as necessary."
+        },
+        {
+          "title": "YouTube End-Screen and Annotations Optimization",
+          "text": "Optimize the use of end-screen and annotations in a YouTube video to [increase click-through rate, retention and engagement]. Utilize [clear and concise language, branding elements and calls-to-action] to make the end-screen and annotations more visually appealing and effective. Consider the [viewer demographics, interests and behavior], [competition in the niche] and [channel's goals and objectives] when optimizing end-screens and annotations. Be sure to [track the performance of the end-screens and annotations using YouTube analytics] and adjust them as necessary to improve their performance."
+        },
+        {
+          "title": "YouTube Live Streaming Event Planning",
+          "text": "Plan and execute a live streaming event on YouTube that [engages and entertains the audience] on [specific topic or theme]. Utilize [interactive features, guests, and giveaways] to make the event interactive and memorable. Also, consider the [event schedule, technical requirements, and equipment] to make sure that everything runs smoothly. Be sure to [promote the event on social media and other platforms] to increase the audience reach. Also, make sure to [test the stream and have a backup plan in case of technical difficulties]."
+        },
+        {
+          "title": "YouTube Playlist Creation",
+          "text": "Create a YouTube playlist that [organizes and curates related videos] on a [specific topic or theme]. Utilize [keywords, titles, and descriptions] to make the playlist easy to discover by viewers searching for related content. Consider the [viewer demographics, interests and behavior] when selecting and arranging the videos in the playlist. Make sure to [include a mix of older and newer videos] to cater to both new and returning viewers. Be sure to [test the playlist using YouTube analytics] and make adjustments as necessary to ensure it is engaging and relevant."
+        },
+        {
+          "title": "YouTube SEO Optimization",
+          "text": "Optimize a YouTube video for SEO (Search Engine Optimization) by [using keywords, tags, descriptions and other elements] to increase its visibility on search engines like Google. Utilize [keyword research, meta data and captions] to ensure that the video is able to rank well for relevant search terms and appear in search results. Consider the [competition in the niche] and the [viewer demographics and behavior] when making changes to the video. Be sure to [test the changes using YouTube analytics and adjust as necessary] before publishing the final product."
+        },
+        {
+          "title": "YouTube Subtitles and Captions Creation",
+          "text": "Create and add subtitles and captions to YouTube videos to [increase reach and accessibility] for a wider audience. Utilize [closed captioning tools, transcription services and proper formatting] to ensure that the subtitles and captions are accurate and easy to read. Consider the [viewer demographics, interests, and behavior], [competition in the niche], and [channel's goals and objectives] when creating subtitles and captions. Be sure to [test the subtitles and captions using YouTube analytics] and make adjustments as necessary to improve their performance."
+        },
+        {
+          "title": "YouTube Video Description Optimization",
+          "text": "Optimize a YouTube video's description by [using keywords, tags, and an engaging summary] to increase its visibility and engagement. Utilize [SEO best practices, including including links to other relevant videos, channel, and website] to make it easy for viewers to discover and engage with related content. Consider the [viewer demographics, interests and behavior] when writing the description. Be sure to [proofread the description for grammar, spelling and punctuation errors] before publishing the final product."
+        },
+        {
+          "title": "YouTube Video Ideas Generation",
+          "text": "Generate ideas for YouTube videos that align with a channel's goals and target audience. Utilize [audience research, keyword research, and industry trends] to identify topics that would be engaging and relevant to the target audience. Also, considering leveraging user-generated content as a video idea. Consider the [viewer demographics, interests, and behavior], [competition in the niche], and [channel's goals and objectives] when creating the list of ideas. Be sure to [test the ideas using YouTube analytics] and adjust the list as necessary."
+        },
+        {
+          "title": "YouTube Video Optimization",
+          "text": "Improve the visibility and reach of a YouTube video on [specific topic] by optimizing it for search and engagement. Utilize [keyword research, video tags, captions, and thumbnails] to ensure that the video appears in relevant search results and is able to capture the attention of viewers. Consider the [competition in the niche] and the [viewer demographics and behavior] when making changes to the video. Make sure to [test the changes using YouTube analytics and adjust as necessary] before publishing the final product."
+        },
+        {
+          "title": "YouTube Video Outline Creation",
+          "text": "Create an outline for a YouTube video that [organizes and structures the content] in a logical and engaging way. Utilize [key points, supporting information, and calls-to-action] to create a clear and compelling story. Consider the [viewer demographics, interests, and behavior], [competition in the niche], and [channel's goals and objectives] when creating the outline. Be sure to [test the outline using feedback from viewers or other stakeholders] and make adjustments as necessary to ensure that it is clear, concise and engaging."
+        },
+        {
+          "title": "YouTube Video Promotion",
+          "text": "Develop and execute a strategy for promoting a YouTube video that [increases its reach and visibility] by reaching the target audience. Utilize [social media promotion, email marketing, and influencer outreach] to get the video in front of the right people. Consider the [competition in the niche] and the [viewer demographics and behavior] when creating the promotion plan. Make sure to [analyze the performance of the promotion using YouTube analytics] and adjust the strategy as necessary. Be sure to [create a engaging thumbnail, include a catchy title and description] to draw people in."
+        },
+        {
+          "title": "YouTube Video Script Writing",
+          "text": "Write a script for a YouTube video that [informs, educates or entertains the audience] on [specific topic]. Use [storytelling techniques, humor, and strong visuals] to make the video engaging and memorable. Also, it is important to consider the [viewer demographics and behavior] and [length of the video] to make sure that the content is tailored to the target audience. Make sure to [include a call to action] to encourage viewers to engage with the channel further. Be sure to [proofread and get feedback on the script before filming the video]"
+        },
+        {
+          "title": "YouTube Video Titles Optimization",
+          "text": "Optimize a YouTube video's title by [using keywords, clear and concise language] to increase its visibility and click-through rate. Utilize [SEO best practices] and include relevant information such as the video's duration or the presenter's name. Consider the [viewer demographics, interests, and behavior], [competition in the niche], and [channel's goals and objectives] when writing the title. Be sure to [proofread the title for grammar, spelling and punctuation errors] and make sure that it accurately reflects the content of the video."
+        }
+      ]
+    }
+  ]
+}
