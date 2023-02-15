@@ -660,6 +660,187 @@
       ]
     },
     {
+      "category": "Cold DMs",
+      "prompts": [
+        {
+          "title": "Addressing Pain Points",
+          "text": "Create a cold DM message that will address specific pain points or problems faced by your [ideal customer persona] and offer solutions with your [product/service]. Use clear and specific language and consider the [target audience's needs] when completing the task. Be sure to [include any additional requirements or considerations] and [test or proofread] the final product to ensure it meets the necessary [standards or criteria]."
+        },
+        {
+          "title": "Creating a sense of community",
+          "text": "Create a cold DM message that will create a sense of community and belonging for your [ideal customer persona] by featuring user-generated content or highlighting how your [product/service] is used by others like them. Use relatable language and consider the [target audience's interests] when completing the task. Be sure to [include any additional requirements or considerations] and [test or proofread] the final product to ensure it meets the necessary [standards or criteria]."
+        },
+        {
+          "title": "Creating a sense of empowerment",
+          "text": "Create a cold DM message that will create a sense of empowerment by highlighting the benefits or positive changes that your [product/service] can bring to your [ideal customer persona]. Use persuasive language and consider the [target audience's needs] when completing the task. Be sure to [include any additional requirements or considerations] and [test or proofread] the final product to ensure it meets the necessary [standards or criteria]."
+        },
+        {
+          "title": "Creating a sense of exclusivity",
+          "text": "Create a cold DM message that will create a sense of exclusivity by highlighting an exclusive deal or limited-time offer that is only available to a select group of recipients. Use persuasive language and consider the [relevant factors or requirements] when completing the task. Be sure to [include any additional requirements or considerations] and [test or proofread] the final product to ensure it meets the necessary [standards or criteria]."
+        },
+        {
+          "title": "Creating a sense of FOMO (fear of missing out)",
+          "text": "Create a cold DM message that will create a sense of FOMO by highlighting an upcoming event, webinar or limited-time opportunity that is exclusive to a select group of recipients. Use persuasive language and consider the [relevant factors or requirements] when completing the task. Be sure to [include any additional requirements or considerations] and [test or proofread] the final product to ensure it meets the necessary [standards or criteria]."
+        },
+        {
+          "title": "Creating a sense of humor",
+          "text": "Create a cold DM message that will use humor to engage your [ideal customer persona] and persuade them to take [desired action]. Use appropriate and relatable humor and consider the [target audience's interests] and [relevant factors or requirements] when completing the task. Be sure to [include any additional requirements or considerations] and [test or proofread] the final product to ensure it meets the necessary [standards or criteria]."
+        },
+        {
+          "title": "Creating a sense of luxury",
+          "text": "Create a cold DM message that will create a sense of luxury by highlighting the premium quality, craftsmanship or exclusivity of your [product/service]. Use persuasive language and consider the [target audience's interests] when completing the task. Be sure to [include any additional requirements or considerations] and [test or proofread] the final product to ensure it meets the necessary [standards or criteria]."
+        },
+        {
+          "title": "Creating a sense of mystery",
+          "text": "Create a cold DM message that will create a sense of mystery and intrigue by hinting at exclusive information, a hidden feature or a surprise bonus that can be unlocked by taking [desired action]. Use persuasive language and consider the [relevant factors or requirements] when completing the task. Be sure to [include any additional requirements or considerations] and [test or proofread] the final product to ensure it meets the necessary [standards or criteria]."
+        },
+        {
+          "title": "Creating a sense of nostalgia",
+          "text": "Create a cold DM message that will tap into the emotions of nostalgia by reminiscing on a special time, place or experience from the past, in order to make a connection with your [ideal customer persona] and encourage them to take [desired action]. Use relatable language and consider the [target audience's interests] when completing the task. Be sure to [include any additional requirements or considerations] and [test or proofread] the final product to ensure it meets the necessary [standards or criteria]."
+        },
+        {
+          "title": "Creating a sense of scarcity",
+          "text": "Create a cold DM message that will use the concept of scarcity to create a sense of urgency and encourage your [ideal customer persona] to take [desired action] by highlighting limited-time offers, limited stock availability or exclusive deals. Use persuasive language and consider the [relevant factors or requirements] when completing the task. Be sure to [include any additional requirements or considerations] and [test or proofread] the final product to ensure it meets the necessary [standards or criteria]."
+        },
+        {
+          "title": "Creating a sense of simplicity",
+          "text": "Create a cold DM message that will create a sense of simplicity by highlighting the easy-to-use, user-friendly features of your [product/service]. Use clear and specific language and consider the [target audience's needs] when completing the task. Be sure to [include any additional requirements or considerations] and [test or proofread] the final product to ensure it meets the necessary [standards or criteria]."
+        },
+        {
+          "title": "Creating a Sense of Urgency",
+          "text": "Create a cold DM message that will create a sense of urgency and encourage your [ideal customer persona] to take [desired action] by highlighting limited-time offers or deals. Use persuasive language and consider the [relevant factors or requirements] when completing the task. Be sure to [include any additional requirements or considerations] and [test or proofread] the final product to ensure it meets the necessary [standards or criteria]."
+        },
+        {
+          "title": "Focusing on the benefits",
+          "text": "Create a cold DM message that will focus on the benefits that your [product/service] offers and how it will solve the problems or meet the needs of your [ideal customer persona]. Use clear and specific language and consider the [target audience's interests] and [relevant factors or requirements] when completing the task. Be sure to [include any additional requirements or considerations] and [test or proofread] the final product to ensure it meets the necessary [standards or criteria]."
+        },
+        {
+          "title": "Focusing on the problem solving aspect",
+          "text": "Create a cold DM message that will focus on how your [product/service] can solve specific problems or meet the needs of your [ideal customer persona], rather than just listing its features. Use clear and specific language and consider the [target audience's needs] when completing the task. Be sure to [include any additional requirements or considerations] and [test or proofread] the final product to ensure it meets the necessary [standards or criteria]."
+        },
+        {
+          "title": "Highlighting an award or certification",
+          "text": "Create a cold DM message that will highlight an award or certification your [brand/company] has received, to build credibility and persuade your [ideal customer persona] to take [desired action]. Use persuasive language and consider the [relevant factors or requirements] when completing the task. Be sure to [include any additional requirements or considerations] and [test or proofread] the final product to ensure it meets the necessary [standards or criteria]."
+        },
+        {
+          "title": "Highlighting case studies",
+          "text": "Create a cold DM message that will use case studies or real-world examples to showcase how your [product/service] has been successfully used by other customers and the results they achieved. Use persuasive language and consider the [target audience's needs] when completing the task. Be sure to [include any additional requirements or considerations] and [test or proofread] the final product to ensure it meets the necessary [standards or criteria]."
+        },
+        {
+          "title": "Highlighting customer satisfaction",
+          "text": "Create a cold DM message that will use customer satisfaction data, or feedback and testimonials, to build trust and persuade your [ideal customer persona] to take [desired action]. Use persuasive language and consider the [relevant factors or requirements] when completing the task. Be sure to [include any additional requirements or considerations] and [test or proofread] the final product to ensure it meets the necessary [standards or criteria]."
+        },
+        {
+          "title": "Highlighting guaranteed results",
+          "text": "Create a cold DM message that will highlight the guaranteed results that your [product/service] can deliver, and use persuasive language to communicate the potential benefits of using your [product/service]. Consider the [relevant factors or requirements] when completing the task. Be sure to [include any additional requirements or considerations] and [test or proofread] the final product to ensure it meets the necessary [standards or criteria]."
+        },
+        {
+          "title": "Highlighting multiple benefits",
+          "text": "Create a cold DM message that will highlight multiple benefits of using your [product/service] and persuade the [ideal customer persona] to take [desired action]. Use persuasive language and consider the [target audience's needs] when completing the task. Be sure to [include any additional requirements or considerations] and [test or proofread] the final product to ensure it meets the necessary [standards or criteria]."
+        },
+        {
+          "title": "Highlighting testimonials",
+          "text": "Create a cold DM message that will use testimonials from satisfied customers to persuade your [ideal customer persona] to take [desired action]. Use persuasive language and consider the [target audience's interests] when completing the task. Be sure to [include any additional requirements or considerations] and [test or proofread] the final product to ensure it meets the necessary [standards or criteria]."
+        },
+        {
+          "title": "Highlighting the after-sales support",
+          "text": "Create a cold DM message that will highlight the after-sales support that your [brand/company] offers to your [ideal customer persona], such as warranty, maintenance or troubleshooting services. Use persuasive language and consider the [target audience's needs] when completing the task. Be sure to [include any additional requirements or considerations] and [test or proofread] the final product to ensure it meets the necessary [standards or criteria]."
+        },
+        {
+          "title": "Highlighting the cost savings potential",
+          "text": "Create a cold DM message that will highlight the cost savings potential of your [product/service] and how it can save the [ideal customer persona] money in the long-term by reducing costs or increasing efficiency. Use persuasive language and consider the [target audience's needs] when completing the task. Be sure to [include any additional requirements or considerations] and [test or proofread] the final product to ensure it meets the necessary [standards or criteria]."
+        },
+        {
+          "title": "Highlighting the cost-effectiveness",
+          "text": "Create a cold DM message that will clearly communicate the cost-effectiveness of your [product/service] and how it offers better value for money compared to other options. Use persuasive language and consider the [target audience's needs] when completing the task. Be sure to [include any additional requirements or considerations] and [test or proofread] the final product to ensure it meets the necessary [standards or criteria]."
+        },
+        {
+          "title": "Highlighting the ease of use",
+          "text": "Create a cold DM message that will highlight the ease of use of your [product/service] and how it can save the [ideal customer persona] time and effort. Use clear and specific language and consider the [target audience's needs] when completing the task. Be sure to [include any additional requirements or considerations] and [test or proofread] the final product to ensure it meets the necessary [standards or criteria]."
+        },
+        {
+          "title": "Highlighting the innovation",
+          "text": "Create a cold DM message that will highlight the innovation of your [product/service] and how it stands out among others in the market by introducing new or unique features. Use persuasive language and consider the [target audience's needs] when completing the task. Be sure to [include any additional requirements or considerations] and [test or proofread] the final product to ensure it meets the necessary [standards or criteria]."
+        },
+        {
+          "title": "Highlighting the long-term benefits",
+          "text": "Create a cold DM message that will highlight the long-term benefits of using your [product/service] and how it can improve the [ideal customer persona]'s quality of life or productivity over time. Use persuasive language and consider the [target audience's needs] when completing the task. Be sure to [include any additional requirements or considerations] and [test or proofread] the final product to ensure it meets the necessary [standards or criteria]."
+        },
+        {
+          "title": "Highlighting the savings",
+          "text": "Create a cold DM message that will highlight the savings that your [product/service] can provide to your [ideal customer persona], whether it be financial savings or time savings. Use persuasive language and consider the [target audience's needs] when completing the task. Be sure to [include any additional requirements or considerations] and [test or proofread] the final product to ensure it meets the necessary [standards or criteria]."
+        },
+        {
+          "title": "Highlighting the security features",
+          "text": "Create a cold DM message that will highlight the security features of your [product/service] and how it can protect the [ideal customer persona]'s sensitive information or assets. Use persuasive language and consider the [target audience's needs] when completing the task. Be sure to [include any additional requirements or considerations] and [test or proofread] the final product to ensure it meets the necessary [standards or criteria]."
+        },
+        {
+          "title": "Highlighting the unique",
+          "text": "Create a cold DM message that will highlight the unique and distinct characteristics of your [product/service] and how they stand out from competitors. Use clear and compelling language and consider the [target audience's needs] and [relevant factors or requirements] when completing the task. Be sure to [include any additional requirements or considerations] and [test or proofread] the final product to ensure it meets the necessary [standards or criteria]."
+        },
+        {
+          "title": "Highlighting the warranty",
+          "text": "Create a cold DM message that will highlight the warranty of your [product/service] and the peace of mind it can offer to the [ideal customer persona] in terms of protection and security. Use persuasive language and consider the [target audience's needs] when completing the task. Be sure to [include any additional requirements or considerations] and [test or proofread] the final product to ensure it meets the necessary [standards or criteria]."
+        },
+        {
+          "title": "Highlighting value proposition",
+          "text": "Create a cold DM message that will focus on highlighting the value that your [product/service] provides to your [ideal customer persona], including cost savings, increased efficiency, or improved quality. Use clear and specific language and consider the [target audience's needs] when completing the task. Be sure to [include any additional requirements or considerations] and [test or proofread] the final product to ensure it meets the necessary [standards or criteria]."
+        },
+        {
+          "title": "Leveraging authority",
+          "text": "Create a cold DM message that will leverage the authority of your [brand/company] by highlighting industry awards, certifications or media mentions, to persuade your [ideal customer persona] to take [desired action]. Use persuasive language and consider the [relevant factors or requirements] when completing the task. Be sure to [include any additional requirements or considerations] and [test or proofread] the final product to ensure it meets the necessary [standards or criteria]."
+        },
+        {
+          "title": "Leveraging expertise",
+          "text": "Create a cold DM message that will leverage the expertise of your [brand/company] by highlighting industry knowledge, research or a professional opinion to educate your [ideal customer persona] on the benefits of your [product/service] and encourage them to take [desired action]. Use persuasive language and consider the [relevant factors or requirements] when completing the task. Be sure to [include any additional requirements or considerations] and [test or proofread] the final product to ensure it meets the necessary [standards or criteria]."
+        },
+        {
+          "title": "Leveraging industry statistics",
+          "text": "Create a cold DM message that will leverage industry statistics and research to educate your [ideal customer persona] on the benefits of your [product/service] and persuade them to take [desired action]. Use persuasive language and consider the [relevant factors or requirements] when completing the task. Be sure to [include any additional requirements or considerations] and [test or proofread] the final product to ensure it meets the necessary [standards or criteria]."
+        },
+        {
+          "title": "Leveraging referrals",
+          "text": "Create a cold DM message that will leverage referrals by highlighting the positive experiences of current customers who have recommended your [product/service] to others and encouraging your [ideal customer persona] to do the same. Use persuasive language and consider the [target audience's needs] when completing the task. Be sure to [include any additional requirements or considerations] and [test or proofread] the final product to ensure it meets the necessary [standards or criteria]."
+        },
+        {
+          "title": "Leveraging social proof",
+          "text": "Create a cold DM message that will leverage social proof, such as testimonials or customer reviews, to persuade your [ideal customer persona] to take [desired action]. Use persuasive language and consider the [target audience's interests] when completing the task. Be sure to [include any additional requirements or considerations] and [test or proofread] the final product to ensure it meets the necessary [standards or criteria]."
+        },
+        {
+          "title": "Offering a free consultation or trial",
+          "text": "Create a cold DM message that will offer a free consultation or trial of your [product/service], to build trust and persuade your [ideal customer persona] to take [desired action]. Use persuasive language and consider the [relevant factors or requirements] when completing the task. Be sure to [include any additional requirements or considerations] and [test or proofread] the final product to ensure it meets the necessary [standards or criteria]."
+        },
+        {
+          "title": "Offering a free trial or demo",
+          "text": "Create a cold DM message that will offer a free trial or demo of your [product/service] to your [ideal customer persona] and persuade them to take [desired action]. Use persuasive language and consider the [relevant factors or requirements] when completing the task. Be sure to [include any additional requirements or considerations] and [test or proofread] the final product to ensure it meets the necessary [standards or criteria]."
+        },
+        {
+          "title": "Offering a guarantee",
+          "text": "Create a cold DM message that will offer a guarantee or risk-free trial for your [product/service], to build trust and persuade your [ideal customer persona] to take [desired action]. Use persuasive language and consider the [relevant factors or requirements] when completing the task. Be sure to [include any additional requirements or considerations] and [test or proofread] the final product to ensure it meets the necessary [standards or criteria]."
+        },
+        {
+          "title": "Showcasing customer success stories",
+          "text": "Create a cold DM message that will showcase the success stories of previous customers who have used your [product/service] and how it helped them to achieve their goals or solve their problems. Use persuasive language and consider the [target audience's needs] when completing the task. Be sure to [include any additional requirements or considerations] and [test or proofread] the final product to ensure it meets the necessary [standards or criteria]."
+        },
+        {
+          "title": "Using Interactive elements",
+          "text": "Create a cold DM message that will use interactive elements such as quizzes, polls, surveys, or games, to engage your [ideal customer persona] and persuade them to take [desired action]. Use interactive elements that are relevant and appropriate for your audience and consider the [target audience's interests] and [relevant factors or requirements] when completing the task. Be sure to [include any additional requirements or considerations] and [test or proofread] the final product to ensure it meets the necessary [standards or criteria]."
+        },
+        {
+          "title": "Using personal anecdotes",
+          "text": "Create a cold DM message that will use personal anecdotes or experiences to create a relatable and authentic connection with your [ideal customer persona], and persuade them to take [desired action]. Use relatable language and consider the [target audience's interests] when completing the task. Be sure to [include any additional requirements or considerations] and [test or proofread] the final product to ensure it meets the necessary [standards or criteria]."
+        },
+        {
+          "title": "Using Personalization",
+          "text": "Create a cold DM message that will use personalization techniques to make a connection with your [ideal customer persona] and persuade them to take [desired action]. Use personalization techniques such as addressing them by name, referencing their past interactions with your brand, etc. Be sure to consider the [target audience's interests] and [relevant factors or requirements] when completing the task. Be sure to [include any additional requirements or considerations] and [test or proofread] the final product to ensure it meets the necessary [standards or criteria]."
+        },
+        {
+          "title": "Using storytelling",
+          "text": "Create a cold DM message that will use storytelling to engage your [ideal customer persona] and persuade them to take [desired action]. Use a clear, relatable and compelling narrative and consider the [target audience's interests] when completing the task. Be sure to [include any additional requirements or considerations] and [test or proofread] the final product to ensure it meets the necessary [standards or criteria]."
+        }
+      ]
+    },
+    {
       "category": "Development",
       "prompts": [
         {
@@ -906,6 +1087,76 @@
         {
           "title": "Writing a Compelling Email Subject Line",
           "text": "Write an email subject line that will grab the attention of the [target audience] and encourage them to open the email. Consider the [target audience's] interests, and use strong and descriptive language to make the email stand out in their inbox. Avoid using spam words and keep the subject line concise and to the point. Incorporate [specific techniques or elements], such as [social proof, customer testimonials], to build trust and credibility and encourage [desired action]. Address [potential objections/concerns], and test or proofread the final product to ensure it meets the necessary [standards or criteria]. Consider [relevant factors or requirements] such as [target audience's interests] and [industry best practices] when completing the task."
+        }
+      ]
+    },
+    {
+      "category": "Essay",
+      "prompts": [
+        {
+          "title": "A Comprehensive Guide to [Topic]",
+          "text": "Create an informative essay on [topic] for a general audience. Use a variety of sources to research and present the information, and be sure to properly cite them in the text and bibliography. Use headings and subheadings to organize the content, and include any necessary illustrations or graphics to enhance understanding."
+        },
+        {
+          "title": "Comparing and Contrasting [Topic]",
+          "text": "Create a compare and contrast essay on [topic] that analyzes the similarities and differences between two or more subjects. Use specific examples to illustrate the points, and be sure to use transitional words and phrases to guide the reader through the essay. Consider the [relevant factors or requirements] and [target audience's interests] when selecting the subjects and composing the essay."
+        },
+        {
+          "title": "Crafting an Engaging Essay Introduction",
+          "text": "Write an introduction for an essay on the topic of [topic] that grabs the attention of the reader and sets the tone for the rest of the essay. Use a strong opening statement to establish the purpose of the essay and provide context for the main points. Use the introduction to set the stage for the rest of the essay and provide a roadmap for the reader."
+        },
+        {
+          "title": "Defining and Explaining [Topic]",
+          "text": "Develop an expository essay on [topic] that defines and explains a specific concept or idea. Use clear and concise language to present the information, and include examples to enhance understanding. Be sure to include a conclusion that summarizes the main points and leaves a lasting impression."
+        },
+        {
+          "title": "Editing an Essay for Clarity and Cohesion",
+          "text": "Edit the following essay for clarity and cohesion: [essay]. Consider the overall structure and flow of the essay, and make any necessary adjustments to improve the clarity and coherence of the argument. Use transitional phrases and sentences to connect the ideas and maintain the flow of the essay. Be sure to proofread the essay for spelling, grammar, and punctuation errors."
+        },
+        {
+          "title": "Exploring the Research on [Topic]",
+          "text": "Write a research-based essay on [topic] that synthesizes and evaluates the existing literature on the subject. Use a variety of sources and be sure to properly cite them in the text and bibliography. Use headings and subheadings to organize the content, and include any necessary illustrations or graphics to enhance understanding."
+        },
+        {
+          "title": "My Journey with [Topic]",
+          "text": "Write a personal essay on [topic] that reflects on your own experiences and insights. Use descriptive language and storytelling techniques to paint a vivid picture for the reader. Explore your emotions and thoughts on the subject, and reflect on any lessons or growth you have experienced."
+        },
+        {
+          "title": "Structuring an Essay",
+          "text": "Develop a structure for an essay on the topic of [topic] that will engage and inform the reader. Start with an attention-grabbing introduction, and then outline the main points and subpoints of the essay. Use examples and anecdotes to illustrate the points, and end with a strong conclusion that leaves a lasting impression."
+        },
+        {
+          "title": "The Great Debate: [Topic]",
+          "text": "Develop an argumentative essay on [topic] that takes a stance on a controversial issue. Use logical reasoning and evidence to support your position, and anticipate and refute opposing viewpoints. Use rhetorical techniques to enhance the effectiveness of your argument, and be sure to clearly state your thesis and structure the essay in a way that is easy to follow."
+        },
+        {
+          "title": "The Power of Persuasion",
+          "text": "Write an essay on [topic] that aims to persuade the reader to adopt a certain viewpoint. Use logical arguments and evidence to support your position, and anticipate and address counterarguments. Make sure to clearly state your thesis and structure the essay in a way that is easy to follow."
+        }
+      ]
+    },
+    {
+      "category": "Explaining Complex in Simple Terms",
+      "prompts": [
+        {
+          "title": "Breaking Down Difficult Concepts into Simple Steps",
+          "text": "Break down the following difficult concept into simple steps: [concept]. Consider the needs and interests of the audience, and use language that is easy to understand. Avoid using any technical or specialized terms, and aim to make the steps as clear and concise as possible. Use numbered or bullet points to list the steps in a logical order."
+        },
+        {
+          "title": "Explaining Complex Ideas in Simple Terms",
+          "text": "Explain the following complex idea in simple terms: [idea]. Consider the needs and interests of the audience, and use language that is easy to understand. Avoid using any technical or specialized terms, and aim to make the explanation as clear and concise as possible. Use examples and anecdotes to illustrate the concept, and consider using visual aids to enhance the explanation."
+        },
+        {
+          "title": "Simplifying Complex Text for a Wide Audience",
+          "text": "Simplify the following complex text for a wide audience: [text]. Consider the needs and interests of the audience, and use language that is easy to understand. Avoid using any technical or specialized terms, and aim to make the text as clear and concise as possible. Use examples and anecdotes to illustrate the points, and consider using visual aids to enhance the explanation."
+        },
+        {
+          "title": "Translating Legal Text into Plain Language",
+          "text": "Translate the following legal text into plain language: [text]. Consider the needs and interests of the audience, and use language that is easy to understand. Avoid using any technical or specialized terms, and aim to make the text as clear and concise as possible. Use headings and subheadings to break up the text and make it easier to navigate."
+        },
+        {
+          "title": "Translating Technical Jargon into Layman's Terms",
+          "text": "Translate the following technical jargon into layman's terms: [jargon]. Consider the target audience and their level of understanding, and use simple and clear language to convey the concepts. Avoid using any complex or obscure terms, and aim to make the text as easy to understand as possible. Use examples and anecdotes to illustrate the points, and consider using visual aids to enhance the explanation."
         }
       ]
     },
